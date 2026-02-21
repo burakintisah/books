@@ -44,13 +44,13 @@ export function BookGridToggle({ books }: { books: Book[] }) {
 
       {/* Book views */}
       {view === "grid" ? (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
           {books.map((book) => (
             <BookCard key={book.slug} book={book} />
           ))}
         </div>
       ) : (
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-4">
           {books.map((book) => (
             <BookListCard key={book.slug} book={book} />
           ))}

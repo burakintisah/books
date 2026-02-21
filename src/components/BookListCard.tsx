@@ -22,24 +22,29 @@ function StarRating({ rating }: { rating: number }) {
 export function BookListCard({ book }: { book: Book }) {
   return (
     <Link href={`/books/${book.slug}`} className="group block">
-      <div className="flex items-center gap-5 rounded-xl border border-zinc-200 bg-white p-4 transition-all duration-200 hover:shadow-md hover:border-zinc-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700">
-        {/* Cover */}
+      <div className="relative flex items-center gap-5 overflow-hidden rounded-xl border border-zinc-200/80 bg-white p-4 shadow-sm transition-all duration-300 hover:shadow-md hover:border-zinc-300 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-zinc-700">
+        {/* Subtle accent line */}
         <div
-          className="flex h-20 w-14 shrink-0 items-center justify-center rounded-md"
-          style={{ backgroundColor: book.coverColor + "20" }}
-        >
+          className="absolute left-0 top-0 h-full w-1 rounded-l-xl"
+          style={{ backgroundColor: book.coverColor }}
+        />
+
+        {/* Cover */}
+        <div className="ml-2 shrink-0">
           {book.coverImage ? (
             <Image
               src={book.coverImage}
               alt={book.title}
               width={56}
               height={80}
-              className="h-20 w-14 rounded-md object-cover shadow-sm"
+              className="h-20 w-14 rounded-md object-cover shadow-sm ring-1 ring-black/5 dark:ring-white/10"
             />
           ) : (
             <div
               className="flex h-20 w-14 items-center justify-center rounded-md shadow-sm"
-              style={{ backgroundColor: book.coverColor }}
+              style={{
+                background: `linear-gradient(145deg, ${book.coverColor}, ${book.coverColor}cc)`,
+              }}
             >
               <span className="px-1 text-center text-[7px] font-bold leading-tight text-white">
                 {book.title}
@@ -52,7 +57,7 @@ export function BookListCard({ book }: { book: Book }) {
         <div className="flex-1 min-w-0">
           <div className="flex items-start justify-between gap-4">
             <div className="min-w-0">
-              <h3 className="truncate text-base font-semibold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-100 dark:group-hover:text-blue-400">
+              <h3 className="truncate text-base font-bold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-100 dark:group-hover:text-blue-400">
                 {book.title}
               </h3>
               <p className="mt-0.5 text-sm text-zinc-600 dark:text-zinc-400">{book.author}</p>
@@ -62,19 +67,22 @@ export function BookListCard({ book }: { book: Book }) {
             </div>
           </div>
 
-          <p className="mt-1.5 line-clamp-1 text-sm text-zinc-600 dark:text-zinc-400">
+          <p className="mt-1.5 line-clamp-1 text-sm text-zinc-500 dark:text-zinc-400">
             {book.summary}
           </p>
 
-          <div className="mt-2 flex items-center gap-3">
-            <span className="rounded-full bg-zinc-100 px-2.5 py-0.5 text-xs font-medium text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400">
+          <div className="mt-2 flex items-center gap-2.5">
+            <span
+              className="rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white"
+              style={{ backgroundColor: book.coverColor + "cc" }}
+            >
               {book.category}
             </span>
             <span className="text-xs text-zinc-500 dark:text-zinc-500">
               {book.totalChapters} chapters
             </span>
             <div className="hidden items-center gap-1.5 sm:flex">
-              {book.tags.slice(0, 3).map((tag) => (
+              {book.tags.slice(0, 2).map((tag) => (
                 <span
                   key={tag}
                   className="rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-500 dark:bg-zinc-800 dark:text-zinc-400"
