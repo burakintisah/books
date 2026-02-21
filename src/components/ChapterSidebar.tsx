@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Book } from "@/types/book";
 
@@ -17,14 +18,24 @@ export function ChapterSidebar({ book, activeChapter }: ChapterSidebarProps) {
           className="mb-4 flex h-24 w-full items-center justify-center rounded-lg"
           style={{ backgroundColor: book.coverColor + "20" }}
         >
-          <div
-            className="flex h-16 w-12 items-center justify-center rounded shadow-sm"
-            style={{ backgroundColor: book.coverColor }}
-          >
-            <span className="px-1 text-center text-[8px] font-bold leading-tight text-white">
-              {book.title}
-            </span>
-          </div>
+          {book.coverImage ? (
+            <Image
+              src={book.coverImage}
+              alt={book.title}
+              width={48}
+              height={64}
+              className="h-16 w-auto rounded shadow-sm object-cover"
+            />
+          ) : (
+            <div
+              className="flex h-16 w-12 items-center justify-center rounded shadow-sm"
+              style={{ backgroundColor: book.coverColor }}
+            >
+              <span className="px-1 text-center text-[8px] font-bold leading-tight text-white">
+                {book.title}
+              </span>
+            </div>
+          )}
         </div>
         <h2 className="font-bold text-zinc-900 dark:text-zinc-100">{book.title}</h2>
         <p className="text-sm text-zinc-500 dark:text-zinc-400">{book.author}</p>

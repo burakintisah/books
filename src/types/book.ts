@@ -29,6 +29,7 @@ export interface Book {
   title: string;
   author: string;
   coverColor: string;
+  coverImage?: string;
   category: string;
   tags: string[];
   rating: number;

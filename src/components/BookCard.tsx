@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Book } from "@/types/book";
 
@@ -22,19 +23,29 @@ export function BookCard({ book }: { book: Book }) {
   return (
     <Link href={`/books/${book.slug}`} className="group block">
       <div className="overflow-hidden rounded-xl border border-zinc-200 bg-white transition-all duration-200 hover:shadow-lg hover:-translate-y-1 dark:border-zinc-800 dark:bg-zinc-900">
-        {/* Color banner */}
+        {/* Cover banner */}
         <div
-          className="flex h-40 items-center justify-center"
+          className="flex h-48 items-center justify-center"
           style={{ backgroundColor: book.coverColor + "20" }}
         >
-          <div
-            className="flex h-28 w-20 items-center justify-center rounded-md shadow-md"
-            style={{ backgroundColor: book.coverColor }}
-          >
-            <span className="px-2 text-center text-xs font-bold leading-tight text-white">
-              {book.title}
-            </span>
-          </div>
+          {book.coverImage ? (
+            <Image
+              src={book.coverImage}
+              alt={book.title}
+              width={90}
+              height={130}
+              className="h-36 w-auto rounded-md object-cover shadow-md"
+            />
+          ) : (
+            <div
+              className="flex h-28 w-20 items-center justify-center rounded-md shadow-md"
+              style={{ backgroundColor: book.coverColor }}
+            >
+              <span className="px-2 text-center text-xs font-bold leading-tight text-white">
+                {book.title}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Info */}

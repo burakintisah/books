@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import { getBookBySlug, getAllSlugs } from "@/lib/books";
 
@@ -27,14 +28,24 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
 
       {/* Book Header */}
       <div className="mb-10 flex flex-col gap-6 sm:flex-row sm:items-start">
-        <div
-          className="flex h-44 w-32 shrink-0 items-center justify-center rounded-xl shadow-lg"
-          style={{ backgroundColor: book.coverColor }}
-        >
-          <span className="px-3 text-center text-sm font-bold leading-tight text-white">
-            {book.title}
-          </span>
-        </div>
+        {book.coverImage ? (
+          <Image
+            src={book.coverImage}
+            alt={book.title}
+            width={128}
+            height={176}
+            className="h-44 w-32 shrink-0 rounded-xl object-cover shadow-lg"
+          />
+        ) : (
+          <div
+            className="flex h-44 w-32 shrink-0 items-center justify-center rounded-xl shadow-lg"
+            style={{ backgroundColor: book.coverColor }}
+          >
+            <span className="px-3 text-center text-sm font-bold leading-tight text-white">
+              {book.title}
+            </span>
+          </div>
+        )}
 
         <div className="flex-1">
           <div className="mb-2 flex items-center gap-2">
