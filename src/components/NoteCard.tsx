@@ -79,7 +79,7 @@ export function QuoteCard({ quote }: { quote: Quote }) {
         &ldquo;{quote.text}&rdquo;
       </blockquote>
       {quote.page && (
-        <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">— Page {quote.page}</p>
+        <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">— Page {quote.page}</p>
       )}
     </div>
   );

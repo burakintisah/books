@@ -18,7 +18,7 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
       {/* Back */}
       <Link
         href="/"
-        className="mb-8 inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+        className="mb-8 inline-flex items-center gap-1 text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
       >
         <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
@@ -54,7 +54,7 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
             </span>
           </div>
           <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100">{book.title}</h1>
-          <p className="mt-1 text-lg text-zinc-500 dark:text-zinc-400">by {book.author}</p>
+          <p className="mt-1 text-lg text-zinc-600 dark:text-zinc-400">by {book.author}</p>
           <p className="mt-4 leading-relaxed text-zinc-600 dark:text-zinc-300">{book.summary}</p>
 
           <div className="mt-4 flex flex-wrap gap-2">
@@ -92,10 +92,10 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
                 <h3 className="font-semibold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-100 dark:group-hover:text-blue-400">
                   {chapter.title}
                 </h3>
-                <p className="mt-1 text-sm text-zinc-500 dark:text-zinc-400">
+                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
                   {chapter.summary}
                 </p>
-                <div className="mt-3 flex items-center gap-4 text-xs text-zinc-400 dark:text-zinc-500">
+                <div className="mt-3 flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-500">
                   <span>💡 {chapter.keyInsights.length} insights</span>
                   <span>📝 {chapter.notes.length} notes</span>
                   <span>💬 {chapter.quotes.length} quotes</span>

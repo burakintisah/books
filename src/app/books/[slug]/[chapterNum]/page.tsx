@@ -47,13 +47,13 @@ export default async function ChapterPage({
 
           {/* Chapter header */}
           <div className="mb-8">
-            <p className="mb-2 text-sm font-medium text-zinc-400 dark:text-zinc-500">
+            <p className="mb-2 text-sm font-medium text-zinc-500 dark:text-zinc-500">
               Chapter {chapter.number} of {book.totalChapters}
             </p>
             <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
               {chapter.title}
             </h1>
-            <p className="mt-3 text-lg text-zinc-500 dark:text-zinc-400">
+            <p className="mt-3 text-lg text-zinc-600 dark:text-zinc-400">
               {chapter.summary}
             </p>
           </div>
@@ -105,7 +105,7 @@ export default async function ChapterPage({
             {prevChapter ? (
               <Link
                 href={`/books/${book.slug}/${prevChapter.number}`}
-                className="group flex items-center gap-2 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+                className="group flex items-center gap-2 text-sm text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
               >
                 <svg
                   className="h-4 w-4 transition-transform group-hover:-translate-x-1"
@@ -117,7 +117,7 @@ export default async function ChapterPage({
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                 </svg>
                 <div>
-                  <p className="text-xs text-zinc-400 dark:text-zinc-500">Previous</p>
+                  <p className="text-xs text-zinc-500 dark:text-zinc-500">Previous</p>
                   <p className="font-medium">{prevChapter.title}</p>
                 </div>
               </Link>
@@ -131,7 +131,7 @@ export default async function ChapterPage({
                 className="group flex items-center gap-2 text-right text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
               >
                 <div>
-                  <p className="text-xs text-zinc-400 dark:text-zinc-500">Next</p>
+                  <p className="text-xs text-zinc-500 dark:text-zinc-500">Next</p>
                   <p className="font-medium">{nextChapter.title}</p>
                 </div>
                 <svg
