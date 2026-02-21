@@ -17,23 +17,8 @@ export default function HomePage() {
         </p>
       </div>
 
-      {/* Categories */}
-      <div className="mb-8 flex flex-wrap gap-2">
-        <span className="rounded-full bg-zinc-900 px-4 py-1.5 text-sm font-medium text-white dark:bg-zinc-100 dark:text-zinc-900">
-          All ({books.length})
-        </span>
-        {categories.map((cat) => (
-          <span
-            key={cat}
-            className="rounded-full bg-zinc-100 px-4 py-1.5 text-sm text-zinc-600 dark:bg-zinc-800 dark:text-zinc-400"
-          >
-            {cat}
-          </span>
-        ))}
-      </div>
-
       {/* Books */}
-      <BookGridToggle books={books} />
+      <BookGridToggle books={books} categories={categories} />
 
       {/* Empty state */}
       {books.length === 0 && (
