@@ -1,158 +1,158 @@
 {
   "slug": "the-product-minded-engineer",
-  "title": "The Software Engineer's Guidebook",
-  "author": "Gergely Orosz",
-  "coverColor": "#6366F1",
-  "coverImage": "https://covers.openlibrary.org/b/isbn/9789083381824-L.jpg",
+  "title": "The Product-Minded Engineer",
+  "author": "Drew Hoskins",
+  "coverColor": "#F97316",
+  "coverImage": "https://books.google.com/books/content?id=P-mWEQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
   "category": "Tech",
-  "tags": ["software-engineering", "career", "product-thinking", "leadership"],
+  "tags": ["product-thinking", "user-empathy", "software-engineering", "career"],
   "rating": 5,
-  "readDate": "2025-01-10",
-  "summary": "A comprehensive guidebook for software engineers navigating senior, tech lead, and staff engineer positions. Covers the product-minded engineering mindset, technical excellence, and career growth strategies.",
+  "readDate": "2026-01-15",
+  "summary": "A guide to bridging the gap between engineering and product thinking. Drew Hoskins draws on 20+ years at Microsoft, Meta, and Stripe to teach engineers how to deepen user empathy, simulate user interactions, and build software that truly matters.",
   "totalChapters": 4,
   "chapters": [
     {
       "number": 1,
-      "title": "The Product-Minded Engineer",
-      "summary": "Why the best engineers think beyond code and deeply understand the product they're building.",
+      "title": "The Foundations of Product Thinking",
+      "summary": "Core primitives of product thinking and why user empathy is the most undervalued engineering skill.",
       "keyInsights": [
-        { "text": "Product-minded engineers are developers with interest in the business, the user experience, and the 'why' behind every feature." },
-        { "text": "They proactively suggest product improvements, not just implement specs handed to them." },
-        { "text": "Understanding the business context makes you a 10x more effective engineer." }
+        { "text": "Technical skills alone are not enough for career advancement — you need to deepen your empathy for users." },
+        { "text": "Product thinking is a learnable skill, not an innate talent. It starts with curiosity about how and why people use your software." },
+        { "text": "The best engineers don't just build what's asked — they understand the problem deeply enough to propose better solutions." }
       ],
       "notes": [
         {
           "type": "concept",
-          "title": "What Makes an Engineer Product-Minded",
-          "content": "Product-minded engineers have a genuine curiosity about the product. They want to understand why decisions are made, how users interact with features, and what the business impact is. They don't just ask 'how should I build this?' — they ask 'why are we building this?' and 'is this the right thing to build?'"
+          "title": "What Is a Product-Minded Engineer?",
+          "content": "A product-minded engineer bridges engineering prowess and product insight. They care about the 'why' behind features, not just the 'how.' They understand user needs, think about edge cases from the user's perspective, and proactively suggest improvements. This mindset applies whether you're building consumer products, internal tools, or developer platforms."
+        },
+        {
+          "type": "concept",
+          "title": "The Double Diamond Process Model",
+          "content": "The book uses the Double Diamond as a framework: first diverge to explore the problem space broadly, then converge to define the right problem. Then diverge again to explore solutions, and converge to build the right solution. Most engineers only participate in the second diamond — product-minded engineers engage in both."
         },
         {
           "type": "tip",
-          "title": "Nine Traits of Product-Minded Engineers",
-          "content": "1) Proactive with product ideas. 2) Interest in business outcomes. 3) Curiosity about data and metrics. 4) Strong communicator with non-engineers. 5) Offering product/engineering tradeoffs upfront. 6) Quick, iterative shipping mindset. 7) Strong product intuition through user empathy. 8) Working relationship with product managers. 9) Understanding of business models."
+          "title": "Start with User Empathy",
+          "content": "Before writing any code, ask: Who is the user? What is their goal? What frustrates them today? What does success look like from their perspective? These questions seem simple but most engineers skip them, jumping straight to implementation details."
         },
         {
-          "type": "example",
-          "title": "Tradeoff Conversations",
-          "content": "Instead of saying 'this will take 3 weeks,' a product-minded engineer says: 'We can do the full version in 3 weeks, but here's a simpler version we can ship in 3 days that covers 80% of use cases. We can iterate from there based on user feedback.' This reframes engineering estimates into business decisions."
-        },
-        {
-          "type": "tip",
-          "title": "How to Become More Product-Minded",
-          "content": "Talk to product managers regularly. Understand company metrics and KPIs. Use the product yourself. Attend user research sessions. Read about the industry. Ask 'why' more often. Propose alternatives, not just estimate effort."
+          "type": "warning",
+          "title": "The Builder's Trap",
+          "content": "Engineers often fall into the builder's trap: measuring success by features shipped rather than user problems solved. Shipping fast feels productive, but building the wrong thing fast is waste. Product thinking helps you build the right thing."
         }
       ],
       "quotes": [
-        { "text": "The best engineers I've worked with all had a strong product sense. They were the ones who challenged the spec, suggested simpler solutions, and cared deeply about the user experience." },
-        { "text": "Product-minded engineers are the engineers who make product managers better at their jobs." }
+        { "text": "Being product-minded is what separates decent software engineers from great ones at startups and Big Tech." },
+        { "text": "In an age where AI handles the syntax, engineers who master user empathy and product thinking will define the future of software." }
       ]
     },
     {
       "number": 2,
-      "title": "The Pragmatic Engineer's Career",
-      "summary": "How to navigate your software engineering career from junior to staff and beyond.",
+      "title": "Scenarios and User Simulation",
+      "summary": "How to use scenarios as stories that inspire, validate, and guide your engineering decisions.",
       "keyInsights": [
-        { "text": "Career growth is not linear — it requires deliberate decisions about specialization vs. generalization." },
-        { "text": "The jump from senior to staff engineer requires a fundamental shift from individual output to organizational impact." },
-        { "text": "Visibility and communication matter as much as technical skill at senior levels." }
+        { "text": "Scenarios are the bridge between user needs and engineering implementation — they turn abstract requirements into concrete stories." },
+        { "text": "Simulating user interactions before building helps you catch usability issues and missing edge cases early." },
+        { "text": "Good scenarios capture motivation, persona, and simulation in a single narrative." }
       ],
       "notes": [
         {
           "type": "concept",
-          "title": "The Career Ladder",
-          "content": "Junior → Mid → Senior is mostly about technical competence. Senior → Staff → Principal is about impact, influence, and organizational thinking. The skills that got you promoted to senior won't get you promoted to staff. You need to develop new muscles: strategic thinking, cross-team collaboration, and technical vision."
+          "title": "Scenarios as Stories That Inspire",
+          "content": "A scenario is a short narrative that describes a user trying to accomplish a goal with your product. It includes who the user is (persona), what they're trying to do (motivation), and how they interact with the system (simulation). Good scenarios make abstract product requirements feel real and testable."
         },
         {
           "type": "concept",
-          "title": "T-Shaped Engineers",
-          "content": "The most effective senior+ engineers are T-shaped: deep expertise in one area with broad knowledge across many. This allows them to be the go-to expert in their domain while still being effective contributors across the stack."
-        },
-        {
-          "type": "warning",
-          "title": "The Staff Engineer Trap",
-          "content": "Many engineers get stuck at senior because they keep optimizing what made them successful: writing more code, faster. But staff-level impact requires less coding and more: writing design docs, mentoring, influencing architecture decisions, and identifying the right problems to solve."
+          "title": "The Three Parts of a Scenario",
+          "content": "Every effective scenario has three components: (1) A Motivation — why is the user here? (2) A Persona — who is this user, what's their context? (3) A Simulation — step by step, what happens? This structure forces you to think through the complete user journey, not just the happy path."
         },
         {
           "type": "tip",
-          "title": "Building Your Reputation",
-          "content": "Write internal blog posts about your learnings. Give tech talks. Document architectural decisions. Share post-mortems. These activities compound over time and build your reputation as a technical leader."
+          "title": "Scenarios That Validate Features",
+          "content": "Before building a feature, write 3-5 scenarios for it. If you can't write compelling scenarios, the feature may not be well understood yet. Scenarios that highlight product gaps, frictionful experiences, or surprising user behaviors are the most valuable — they reveal what you don't know."
+        },
+        {
+          "type": "example",
+          "title": "The First Attempt Without Scenarios",
+          "content": "The book describes a case study where a team built a feature without scenarios. The result was technically sound but missed key user needs — the team had optimized for the wrong things. A second attempt, guided by user scenarios, led to a fundamentally different and more successful design."
         }
       ],
       "quotes": [
-        { "text": "The most impactful engineers I know spend as much time thinking about what NOT to build as what to build." },
-        { "text": "Your career is a marathon, not a sprint. Invest in relationships and learning — they compound." }
+        { "text": "This book condenses the skills necessary for good-enough-for-now decisions." },
+        { "text": "Whether you're building consumer products, tools for professionals, or internal platforms, understanding your users changes everything." }
       ]
     },
     {
       "number": 3,
-      "title": "Writing Good Software",
-      "summary": "Practical principles for writing maintainable, testable, and robust code.",
+      "title": "Building with Quality and Empathy",
+      "summary": "How to craft meaningful names, useful errors, clear documentation, and thoughtful APIs.",
       "keyInsights": [
-        { "text": "Good code is code that other engineers can understand, modify, and extend with confidence." },
-        { "text": "Testing is not about coverage numbers — it's about confidence in changes." },
-        { "text": "The best refactoring is the one you do incrementally alongside feature work." }
+        { "text": "Good naming, error messages, and documentation are product features — they shape the user's experience as much as the UI does." },
+        { "text": "Errors should be actionable: tell the user what went wrong AND what they can do about it." },
+        { "text": "Shift left — fire errors as early as possible, catch problems before they cascade." }
       ],
       "notes": [
         {
           "type": "concept",
-          "title": "Code Quality Tradeoffs",
-          "content": "There's no absolute 'good' or 'bad' code. Quality depends on context: a prototype needs different standards than a payments system. The key is being intentional about the tradeoffs. Understand when to invest in quality and when speed matters more."
+          "title": "The Importance of Good Error Messages",
+          "content": "Errors are a product surface. When something goes wrong, the error message is your product's voice. A good error message: (1) explains what happened in user terms, (2) provides enough context to understand why, (3) suggests what the user can do next. Bad error messages like 'Something went wrong' erode trust."
         },
         {
           "type": "tip",
-          "title": "The Boy Scout Rule",
-          "content": "Leave the codebase better than you found it. Every PR is an opportunity to make a small improvement: rename a confusing variable, extract a helper function, add a missing test. These incremental improvements prevent code rot."
+          "title": "Crafting Actionable Errors",
+          "content": "For every error, answer three questions: What happened? Why did it happen? What should the user do? Choose error codes and types carefully. Raise errors at the API or UI layer where the user can act on them. Shift left — fire errors as early as possible in the pipeline."
         },
         {
           "type": "concept",
-          "title": "Testing Strategy",
-          "content": "Write tests that give you confidence to refactor. Unit tests for complex logic, integration tests for critical paths, and end-to-end tests for key user journeys. The testing pyramid still holds: many unit tests, fewer integration tests, even fewer E2E tests."
+          "title": "Naming as Product Design",
+          "content": "Names are the first interface users encounter. A good name communicates purpose, scope, and behavior instantly. Whether it's an API endpoint, a feature name, or a variable — investing time in naming pays dividends in user comprehension and reduced support burden."
         },
         {
-          "type": "warning",
-          "title": "Over-Engineering",
-          "content": "The most common mistake senior engineers make is over-engineering. Building for hypothetical future requirements adds complexity today with no guaranteed payoff. YAGNI (You Aren't Gonna Need It) is almost always correct. Build for today's known requirements."
+          "type": "tip",
+          "title": "Edge Case Thinking",
+          "content": "List out all edge cases before building. What happens with empty input? Duplicate data? Network failures? Concurrent access? Permission boundaries? Edge cases are where products break and users lose trust. Product-minded engineers anticipate these systematically."
         }
       ],
       "quotes": [
-        { "text": "The best code is the code you don't have to write. The second best is code that's easy to delete." },
-        { "text": "Complexity is the enemy of reliability." }
+        { "text": "This is the book that finally bridges the gap between writing code and creating impact." },
+        { "text": "The Product-Minded Engineer is one of those books that belongs on every software engineer's shelf." }
       ]
     },
     {
       "number": 4,
-      "title": "Working with Others",
-      "summary": "Collaboration, code reviews, and communication skills for effective engineering teams.",
+      "title": "Prioritization and Impact",
+      "summary": "How to prioritize your time and roadmap based on cost, impact, and strategic thinking.",
       "keyInsights": [
-        { "text": "Code reviews are the highest-leverage activity for improving team code quality and spreading knowledge." },
-        { "text": "The best technical decisions are made through structured written proposals, not meetings." },
-        { "text": "Empathy in communication is a technical skill — treat it as one." }
+        { "text": "Impact is not about how much you build — it's about how much value you deliver to users." },
+        { "text": "Prioritization is the most important product skill an engineer can develop." },
+        { "text": "Engaging directly with users to gather feedback transforms your engineering judgment." }
       ],
       "notes": [
         {
           "type": "concept",
-          "title": "Effective Code Reviews",
-          "content": "Good code reviews focus on: correctness, readability, maintainability, and knowledge sharing. They don't nitpick style (use formatters for that). Aim to review within 24 hours. Be kind in comments — suggest, don't demand. Ask questions instead of making accusations."
+          "title": "Cost vs Impact Framework",
+          "content": "Every feature has a cost (engineering time, complexity, maintenance) and an impact (user value, business metrics, strategic positioning). Product-minded engineers evaluate both before committing. A small feature with high impact beats a large feature with uncertain impact every time."
         },
         {
           "type": "tip",
-          "title": "Writing Design Documents",
-          "content": "For any project over 2 weeks, write a design doc before coding. Include: problem statement, proposed solution, alternatives considered, and risks. This forces clear thinking and gets early feedback. It also becomes documentation for future engineers."
+          "title": "Engaging with Users Effectively",
+          "content": "Don't just read user feedback — participate in user research sessions. Watch users struggle with your product. Ask open-ended questions: 'What were you trying to do?' not 'Did you like the button?' Direct observation reveals insights that analytics and tickets never capture."
+        },
+        {
+          "type": "concept",
+          "title": "Strategic Thinking for Engineers",
+          "content": "Strategic thinking means understanding how your work fits into the bigger picture: the team's goals, the company's strategy, and the market landscape. Engineers who can connect their technical work to business outcomes become indispensable. Ask: 'If this succeeds, what changes for the business?'"
         },
         {
           "type": "example",
-          "title": "The RFC Process",
-          "content": "Many top tech companies use RFCs (Request for Comments) for major technical decisions. Engineers write a proposal, share it broadly, collect feedback asynchronously, and then make a decision. This scales better than meetings and creates a written record of why decisions were made."
-        },
-        {
-          "type": "tip",
-          "title": "Giving Constructive Feedback",
-          "content": "Use the SBI framework: Situation (when/where), Behavior (what you observed), Impact (the effect). Example: 'In yesterday's PR review (S), I noticed the error handling was missing for the API calls (B), which could cause silent failures in production (I). Could we add error handling here?'"
+          "title": "Lessons from Microsoft, Meta, and Stripe",
+          "content": "Drew Hoskins shares specific examples from his career: building Meta's EntSchema ORM required deep understanding of internal developer needs, Stripe's Workflow Engine had to balance reliability with developer experience, and improving Stripe's API Review process meant understanding how external developers perceive API quality. In each case, product thinking was as important as technical excellence."
         }
       ],
       "quotes": [
-        { "text": "Great engineering teams are built on trust, and trust is built through clear, honest communication." },
-        { "text": "The best engineers make everyone around them better." }
+        { "text": "Drew Hoskins encourages software developers to adopt a product focus and teaches us the skills to do so." },
+        { "text": "Understanding user needs and the broader impact of your work will not only lead to better products but will also help your career grow and flourish." }
       ]
     }
   ]

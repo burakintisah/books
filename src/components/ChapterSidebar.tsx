@@ -38,12 +38,12 @@ export function ChapterSidebar({ book, activeChapter }: ChapterSidebarProps) {
           )}
         </div>
         <h2 className="font-bold text-zinc-900 dark:text-zinc-100">{book.title}</h2>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400">{book.author}</p>
+        <p className="text-sm text-zinc-600 dark:text-zinc-400">{book.author}</p>
       </Link>
 
       {/* Chapter list */}
       <div className="mb-4">
-        <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">
+        <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-500">
           Chapters
         </h3>
         <nav className="flex flex-col gap-1">
