@@ -4,13 +4,12 @@ import { useEffect, useState } from "react";
 
 export function ThemeToggle() {
   const [dark, setDark] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    const stored = localStorage.getItem("theme");
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    const isDark = stored === "dark" || (!stored && prefersDark);
+    setMounted(true);
+    const isDark = document.documentElement.classList.contains("dark");
     setDark(isDark);
-    document.documentElement.classList.toggle("dark", isDark);
   }, []);
 
   const toggle = () => {
@@ -19,6 +18,10 @@ export function ThemeToggle() {
     document.documentElement.classList.toggle("dark", next);
     localStorage.setItem("theme", next ? "dark" : "light");
   };
+
+  if (!mounted) {
+    return <div className="h-9 w-9" />;
+  }
 
   return (
     <button

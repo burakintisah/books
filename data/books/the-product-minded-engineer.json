@@ -1,0 +1,159 @@
+{
+  "slug": "the-product-minded-engineer",
+  "title": "The Software Engineer's Guidebook",
+  "author": "Gergely Orosz",
+  "coverColor": "#6366F1",
+  "coverImage": "https://covers.openlibrary.org/b/isbn/9789083381824-L.jpg",
+  "category": "Tech",
+  "tags": ["software-engineering", "career", "product-thinking", "leadership"],
+  "rating": 5,
+  "readDate": "2025-01-10",
+  "summary": "A comprehensive guidebook for software engineers navigating senior, tech lead, and staff engineer positions. Covers the product-minded engineering mindset, technical excellence, and career growth strategies.",
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Product-Minded Engineer",
+      "summary": "Why the best engineers think beyond code and deeply understand the product they're building.",
+      "keyInsights": [
+        { "text": "Product-minded engineers are developers with interest in the business, the user experience, and the 'why' behind every feature." },
+        { "text": "They proactively suggest product improvements, not just implement specs handed to them." },
+        { "text": "Understanding the business context makes you a 10x more effective engineer." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "What Makes an Engineer Product-Minded",
+          "content": "Product-minded engineers have a genuine curiosity about the product. They want to understand why decisions are made, how users interact with features, and what the business impact is. They don't just ask 'how should I build this?' — they ask 'why are we building this?' and 'is this the right thing to build?'"
+        },
+        {
+          "type": "tip",
+          "title": "Nine Traits of Product-Minded Engineers",
+          "content": "1) Proactive with product ideas. 2) Interest in business outcomes. 3) Curiosity about data and metrics. 4) Strong communicator with non-engineers. 5) Offering product/engineering tradeoffs upfront. 6) Quick, iterative shipping mindset. 7) Strong product intuition through user empathy. 8) Working relationship with product managers. 9) Understanding of business models."
+        },
+        {
+          "type": "example",
+          "title": "Tradeoff Conversations",
+          "content": "Instead of saying 'this will take 3 weeks,' a product-minded engineer says: 'We can do the full version in 3 weeks, but here's a simpler version we can ship in 3 days that covers 80% of use cases. We can iterate from there based on user feedback.' This reframes engineering estimates into business decisions."
+        },
+        {
+          "type": "tip",
+          "title": "How to Become More Product-Minded",
+          "content": "Talk to product managers regularly. Understand company metrics and KPIs. Use the product yourself. Attend user research sessions. Read about the industry. Ask 'why' more often. Propose alternatives, not just estimate effort."
+        }
+      ],
+      "quotes": [
+        { "text": "The best engineers I've worked with all had a strong product sense. They were the ones who challenged the spec, suggested simpler solutions, and cared deeply about the user experience." },
+        { "text": "Product-minded engineers are the engineers who make product managers better at their jobs." }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Pragmatic Engineer's Career",
+      "summary": "How to navigate your software engineering career from junior to staff and beyond.",
+      "keyInsights": [
+        { "text": "Career growth is not linear — it requires deliberate decisions about specialization vs. generalization." },
+        { "text": "The jump from senior to staff engineer requires a fundamental shift from individual output to organizational impact." },
+        { "text": "Visibility and communication matter as much as technical skill at senior levels." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "The Career Ladder",
+          "content": "Junior → Mid → Senior is mostly about technical competence. Senior → Staff → Principal is about impact, influence, and organizational thinking. The skills that got you promoted to senior won't get you promoted to staff. You need to develop new muscles: strategic thinking, cross-team collaboration, and technical vision."
+        },
+        {
+          "type": "concept",
+          "title": "T-Shaped Engineers",
+          "content": "The most effective senior+ engineers are T-shaped: deep expertise in one area with broad knowledge across many. This allows them to be the go-to expert in their domain while still being effective contributors across the stack."
+        },
+        {
+          "type": "warning",
+          "title": "The Staff Engineer Trap",
+          "content": "Many engineers get stuck at senior because they keep optimizing what made them successful: writing more code, faster. But staff-level impact requires less coding and more: writing design docs, mentoring, influencing architecture decisions, and identifying the right problems to solve."
+        },
+        {
+          "type": "tip",
+          "title": "Building Your Reputation",
+          "content": "Write internal blog posts about your learnings. Give tech talks. Document architectural decisions. Share post-mortems. These activities compound over time and build your reputation as a technical leader."
+        }
+      ],
+      "quotes": [
+        { "text": "The most impactful engineers I know spend as much time thinking about what NOT to build as what to build." },
+        { "text": "Your career is a marathon, not a sprint. Invest in relationships and learning — they compound." }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Writing Good Software",
+      "summary": "Practical principles for writing maintainable, testable, and robust code.",
+      "keyInsights": [
+        { "text": "Good code is code that other engineers can understand, modify, and extend with confidence." },
+        { "text": "Testing is not about coverage numbers — it's about confidence in changes." },
+        { "text": "The best refactoring is the one you do incrementally alongside feature work." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Code Quality Tradeoffs",
+          "content": "There's no absolute 'good' or 'bad' code. Quality depends on context: a prototype needs different standards than a payments system. The key is being intentional about the tradeoffs. Understand when to invest in quality and when speed matters more."
+        },
+        {
+          "type": "tip",
+          "title": "The Boy Scout Rule",
+          "content": "Leave the codebase better than you found it. Every PR is an opportunity to make a small improvement: rename a confusing variable, extract a helper function, add a missing test. These incremental improvements prevent code rot."
+        },
+        {
+          "type": "concept",
+          "title": "Testing Strategy",
+          "content": "Write tests that give you confidence to refactor. Unit tests for complex logic, integration tests for critical paths, and end-to-end tests for key user journeys. The testing pyramid still holds: many unit tests, fewer integration tests, even fewer E2E tests."
+        },
+        {
+          "type": "warning",
+          "title": "Over-Engineering",
+          "content": "The most common mistake senior engineers make is over-engineering. Building for hypothetical future requirements adds complexity today with no guaranteed payoff. YAGNI (You Aren't Gonna Need It) is almost always correct. Build for today's known requirements."
+        }
+      ],
+      "quotes": [
+        { "text": "The best code is the code you don't have to write. The second best is code that's easy to delete." },
+        { "text": "Complexity is the enemy of reliability." }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Working with Others",
+      "summary": "Collaboration, code reviews, and communication skills for effective engineering teams.",
+      "keyInsights": [
+        { "text": "Code reviews are the highest-leverage activity for improving team code quality and spreading knowledge." },
+        { "text": "The best technical decisions are made through structured written proposals, not meetings." },
+        { "text": "Empathy in communication is a technical skill — treat it as one." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Effective Code Reviews",
+          "content": "Good code reviews focus on: correctness, readability, maintainability, and knowledge sharing. They don't nitpick style (use formatters for that). Aim to review within 24 hours. Be kind in comments — suggest, don't demand. Ask questions instead of making accusations."
+        },
+        {
+          "type": "tip",
+          "title": "Writing Design Documents",
+          "content": "For any project over 2 weeks, write a design doc before coding. Include: problem statement, proposed solution, alternatives considered, and risks. This forces clear thinking and gets early feedback. It also becomes documentation for future engineers."
+        },
+        {
+          "type": "example",
+          "title": "The RFC Process",
+          "content": "Many top tech companies use RFCs (Request for Comments) for major technical decisions. Engineers write a proposal, share it broadly, collect feedback asynchronously, and then make a decision. This scales better than meetings and creates a written record of why decisions were made."
+        },
+        {
+          "type": "tip",
+          "title": "Giving Constructive Feedback",
+          "content": "Use the SBI framework: Situation (when/where), Behavior (what you observed), Impact (the effect). Example: 'In yesterday's PR review (S), I noticed the error handling was missing for the API calls (B), which could cause silent failures in production (I). Could we add error handling here?'"
+        }
+      ],
+      "quotes": [
+        { "text": "Great engineering teams are built on trust, and trust is built through clear, honest communication." },
+        { "text": "The best engineers make everyone around them better." }
+      ]
+    }
+  ]
+}

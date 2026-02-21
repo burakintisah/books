@@ -1,0 +1,159 @@
+{
+  "slug": "designing-data-intensive-applications",
+  "title": "Designing Data-Intensive Applications",
+  "author": "Martin Kleppmann",
+  "coverColor": "#EF4444",
+  "coverImage": "https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg",
+  "category": "Tech",
+  "tags": ["distributed-systems", "databases", "architecture", "data-engineering"],
+  "rating": 5,
+  "readDate": "2024-11-20",
+  "summary": "The definitive guide to the big ideas behind reliable, scalable, and maintainable data systems. Covers everything from database internals to distributed consensus, stream processing, and the future of data.",
+  "totalChapters": 4,
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Foundations of Data Systems",
+      "summary": "Reliability, scalability, and maintainability — the three pillars of good data system design.",
+      "keyInsights": [
+        { "text": "A data-intensive application is one where data volume, complexity, or speed of change is the primary challenge — not raw CPU power." },
+        { "text": "Reliability means the system works correctly even when faults occur. Scalability means it handles growth gracefully. Maintainability means others can work on it productively." },
+        { "text": "There is no one-size-fits-all database. Understanding the tradeoffs between different tools is essential." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Reliability, Scalability, Maintainability",
+          "content": "Reliability: The system should continue to work correctly even when things go wrong (hardware faults, software bugs, human errors). Scalability: As the system grows (data volume, traffic, complexity), there should be reasonable ways to deal with that growth. Maintainability: Over time, many people will work on the system — it should be easy to understand, modify, and extend."
+        },
+        {
+          "type": "concept",
+          "title": "Describing Load and Performance",
+          "content": "Describe load with 'load parameters': requests per second, read/write ratio, cache hit rate, etc. Describe performance with percentiles (p50, p95, p99), not averages. A high p99 latency means 1 in 100 requests is slow — these are often your most valuable customers with the most data."
+        },
+        {
+          "type": "example",
+          "title": "Twitter's Fan-Out Problem",
+          "content": "Twitter faced a classic scalability challenge: when a user posts a tweet, it needs to appear in all followers' timelines. Approach 1: Query at read time (slow reads). Approach 2: Pre-compute timelines at write time (fan-out on write). Twitter uses a hybrid: fan-out for most users, but query-time for celebrities with millions of followers."
+        },
+        {
+          "type": "warning",
+          "title": "Averages Are Misleading",
+          "content": "Don't use average response time to measure performance. Use percentiles instead. The p50 (median) tells you what a typical user experiences. The p99 tells you about worst-case scenarios. A system can have a great average but terrible tail latency affecting many users."
+        }
+      ],
+      "quotes": [
+        { "text": "A fault is not the same as a failure. A fault is when one component deviates from its spec, whereas a failure is when the system as a whole stops providing the required service.", "page": 6 },
+        { "text": "Even if you are working on a system that handles 'only' a few thousand requests per second, you should still think about its scalability.", "page": 14 }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Data Models and Storage",
+      "summary": "How data is stored and queried — from relational models to document stores, LSM-trees, and B-trees.",
+      "keyInsights": [
+        { "text": "The relational model, document model, and graph model each have their strengths — the choice depends on your data's relationships." },
+        { "text": "LSM-trees are optimized for writes (append-only). B-trees are optimized for reads (in-place updates). Most databases use one or the other." },
+        { "text": "Schema-on-read vs schema-on-write is a fundamental design decision with deep implications." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Relational vs Document vs Graph",
+          "content": "Relational (SQL): Best for many-to-many relationships, joins, and structured data with a known schema. Document (MongoDB, etc.): Best for self-contained documents with few relationships, offers schema flexibility. Graph (Neo4j, etc.): Best for highly interconnected data where relationships are as important as the data itself."
+        },
+        {
+          "type": "concept",
+          "title": "LSM-Trees vs B-Trees",
+          "content": "LSM-Trees (Log-Structured Merge): Write to an in-memory buffer (memtable), flush to sorted files (SSTables), compact periodically. Fast writes, sequential I/O. Used by Cassandra, RocksDB, LevelDB. B-Trees: The standard for relational databases. Data stored in fixed-size pages. In-place updates. Good read performance with O(log n) lookups."
+        },
+        {
+          "type": "tip",
+          "title": "When to Use What",
+          "content": "Use relational when you need joins, transactions, and data integrity. Use document stores when your data is naturally hierarchical (e.g., user profiles, product catalogs). Use graph databases when you need to traverse complex relationships (social networks, recommendation engines, fraud detection)."
+        },
+        {
+          "type": "concept",
+          "title": "Column-Oriented Storage",
+          "content": "In OLAP (analytics) workloads, you typically query a few columns across millions of rows. Column-oriented storage stores all values of a column together, enabling better compression and faster analytical queries. This is why data warehouses (BigQuery, Redshift, ClickHouse) use columnar formats."
+        }
+      ],
+      "quotes": [
+        { "text": "The limits of my language mean the limits of my world.", "page": 27 },
+        { "text": "A document is not stored as a row in a table — it is stored as a self-contained JSON or binary blob.", "page": 31 }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Distributed Data",
+      "summary": "Replication, partitioning, and the fundamental challenges of distributing data across multiple machines.",
+      "keyInsights": [
+        { "text": "Replication and partitioning are the two main strategies for distributing data. You usually need both." },
+        { "text": "The CAP theorem is often misunderstood — it's really about the tradeoff between consistency and availability during network partitions." },
+        { "text": "Distributed transactions are hard. Two-phase commit works but has serious performance and availability costs." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Replication Strategies",
+          "content": "Single-leader: One node accepts writes, replicates to followers. Simple but the leader is a bottleneck. Multi-leader: Multiple nodes accept writes. Good for multi-datacenter setups but introduces write conflicts. Leaderless: Any node can accept reads/writes (Dynamo-style). Uses quorum reads/writes (R + W > N) for consistency."
+        },
+        {
+          "type": "concept",
+          "title": "Partitioning (Sharding)",
+          "content": "Split data across multiple nodes so each handles a subset. Key-range partitioning: Good for range queries, risk of hot spots. Hash partitioning: Even distribution, but range queries require scatter-gather. The hardest part is rebalancing when you add or remove nodes."
+        },
+        {
+          "type": "warning",
+          "title": "The Dangers of Eventual Consistency",
+          "content": "In eventually consistent systems, different nodes may return different values for the same key at the same time. This can lead to subtle bugs: reading your own writes might fail, causally related events might appear out of order, and concurrent writes might be silently lost."
+        },
+        {
+          "type": "example",
+          "title": "Split-Brain Problem",
+          "content": "In a single-leader setup, if the leader appears to fail, a follower gets promoted. But if the old leader was actually still alive (network partition), you now have two leaders accepting writes — a 'split brain.' This can cause data loss and corruption. Solutions include fencing tokens and consensus algorithms."
+        }
+      ],
+      "quotes": [
+        { "text": "The major difference between a thing that might go wrong and a thing that cannot possibly go wrong is that when a thing that cannot possibly go wrong goes wrong, it usually turns out to be impossible to get at or repair.", "page": 275 },
+        { "text": "Network problems are surprisingly common, even in controlled datacenter environments.", "page": 279 }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Derived Data and Stream Processing",
+      "summary": "Batch processing, stream processing, and how to build reliable data pipelines.",
+      "keyInsights": [
+        { "text": "The distinction between 'system of record' and 'derived data' is fundamental to good data architecture." },
+        { "text": "Batch processing (MapReduce) and stream processing (Kafka, Flink) are complementary approaches to transforming data." },
+        { "text": "Event sourcing and change data capture turn your database into a stream, enabling powerful derived views." }
+      ],
+      "notes": [
+        {
+          "type": "concept",
+          "title": "Systems of Record vs Derived Data",
+          "content": "A system of record (source of truth) holds authoritative data — each fact is represented exactly once. Derived data (caches, indexes, materialized views) is the result of transforming the source data. If you lose derived data, you can recreate it from the source. This distinction simplifies architecture and debugging."
+        },
+        {
+          "type": "concept",
+          "title": "MapReduce and Batch Processing",
+          "content": "MapReduce processes large datasets by: (1) Map — extract key-value pairs from input. (2) Sort — group by key. (3) Reduce — aggregate values per key. The key insight: by reading input and writing output (no side effects), jobs are retryable and composable. Hadoop popularized this; Spark improved on it with in-memory processing."
+        },
+        {
+          "type": "concept",
+          "title": "Stream Processing with Event Logs",
+          "content": "An event log (like Kafka) is an append-only, ordered sequence of events. Producers write events; consumers read them. Unlike message queues, consumers can re-read events. This enables: decoupled microservices, event sourcing, change data capture, and real-time analytics."
+        },
+        {
+          "type": "tip",
+          "title": "Change Data Capture (CDC)",
+          "content": "CDC captures every change made to a database and streams it as events. This lets you: keep caches in sync, update search indexes in real-time, replicate data to a data warehouse, and trigger downstream processing. Tools: Debezium, Maxwell, Kafka Connect. It turns your database's write-ahead log into a stream."
+        }
+      ],
+      "quotes": [
+        { "text": "In a sense, batch processing is a special case of stream processing — a stream with a finite, known input.", "page": 451 },
+        { "text": "The derived data approach — transforming data from one form to another — is so broadly applicable that it pops up in many different areas of computing.", "page": 499 }
+      ]
+    }
+  ]
+}
