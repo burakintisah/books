@@ -24,6 +24,14 @@ export interface Chapter {
   quotes: Quote[];
 }
 
+export interface Poem {
+  number: number;
+  title: string;
+  content: string;
+  story?: string;
+  commentary?: string;
+}
+
 export interface Book {
   slug: string;
   title: string;
@@ -37,5 +45,7 @@ export interface Book {
   summary: string;
   totalChapters: number;
   downloadFile?: string;
+  type?: "book" | "poetry";
   chapters: Chapter[];
+  poems?: Poem[];
 }

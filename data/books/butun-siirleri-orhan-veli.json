@@ -9,193 +9,57 @@
   "readDate": "2026-02-15",
   "summary": "Şiiri sokağa indiren, günlük hayatın, sıradan insanların ve yaşama sevincinin en yalın halini arayan Orhan Veli Kanık'ın tüm şiirleri. Garip akımının kurucusu olan şair, kısa, vurucu ve herkesin ezbere bildiği şiirleriyle Türk edebiyatının en sevilen isimlerinden biridir.",
   "totalChapters": 7,
-  "chapters": [
+  "type": "poetry",
+  "chapters": [],
+  "poems": [
     {
       "number": 1,
       "title": "İstanbul'u Dinliyorum",
-      "summary": "Orhan Veli'nin en ünlü şiiri. Gözlerini kapatıp İstanbul'u dinleyen şair, şehrin seslerini, kokularını ve dokusunu altı kıtada resmeder.",
-      "keyInsights": [
-        { "text": "Altı kıtanın her biri 'İstanbul'u dinliyorum, gözlerim kapalı' nakaratıyla başlar — son kıtada 'gözlerim kapalı' düşer, şair artık tam orada, sevgilisiyle birliktedir." },
-        { "text": "Şiir duyularla ilerler: ilk kıtalarda işitme (rüzgâr, çıngırak, kuş), sonra dokunma ve koku, son kıtada sevgili — bütün İstanbul bir sevgiliye dönüşür." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "İstanbul'u dinliyorum, gözlerim kapalı;\nÖnce hafiften bir rüzgâr esiyor;\nYavaş yavaş sallanıyor\nYapraklar, ağaçlarda;\nUzaklarda, çok uzaklarda,\nSucuların hiç durmayan çıngırakları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nKuşlar geçiyor, derken;\nYükseklerden, sürü sürü, çığlık çığlık.\nAğlar çekiliyor dalyanlarda;\nBir kadının suya değiyor ayakları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nSerin serin Kapalıçarşı;\nCıvıl cıvıl Mahmutpaşa;\nGüvercin dolu avlular.\nÇekiç sesleri geliyor doklardan,\nGüzelim bahar rüzgârında ter kokuları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBaşımda eski alemlerin sarhoşluğu,\nLoş kayıkhanelerin liman kokuları;\nBir yalının rüzgârıyla ürperiyorum;\nDinmiş lodosların uğultusu içinde\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBir yosma geçiyor kaldırımdan;\nKüfürler, şarkılar, türküler, laf atmalar.\nBir şey düşüyor elinden yere;\nBir gül olmalı;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBir kuş çırpınıyor eteklerinde;\nAlnın sıcak mı, değil mi, biliyorum;\nDudakların ıslak mı, değil mi, biliyorum;\nBeyaz bir ay doğuyor fıstıkların arkasından\nKalbinin atışlarını duyuyorum;\nİstanbul'u dinliyorum."
-        },
-        {
-          "type": "tip",
-          "title": "Neden Bu Kadar Sevilir?",
-          "content": "İstanbul'u Dinliyorum, şehir şiirlerinin zirvesidir. Her kıta bir duyuya seslenir ve okuyucu gözlerini kapatıp İstanbul'u gerçekten 'duyar'. Son kıtada şehir sevgiliye dönüşür — 'Kalbinin atışlarını duyuyorum' derken artık İstanbul ile sevgili aynı şeydir."
-        }
-      ],
-      "quotes": [
-        { "text": "Bir kadının suya değiyor ayakları; İstanbul'u dinliyorum, gözlerim kapalı." },
-        { "text": "Beyaz bir ay doğuyor fıstıkların arkasından, kalbinin atışlarını duyuyorum; İstanbul'u dinliyorum." }
-      ]
+      "content": "İstanbul'u dinliyorum, gözlerim kapalı;\nÖnce hafiften bir rüzgâr esiyor;\nYavaş yavaş sallanıyor\nYapraklar, ağaçlarda;\nUzaklarda, çok uzaklarda,\nSucuların hiç durmayan çıngırakları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nKuşlar geçiyor, derken;\nYükseklerden, sürü sürü, çığlık çığlık.\nAğlar çekiliyor dalyanlarda;\nBir kadının suya değiyor ayakları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nSerin serin Kapalıçarşı;\nCıvıl cıvıl Mahmutpaşa;\nGüvercin dolu avlular.\nÇekiç sesleri geliyor doklardan,\nGüzelim bahar rüzgârında ter kokuları;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBaşımda eski alemlerin sarhoşluğu,\nLoş kayıkhanelerin liman kokuları;\nBir yalının rüzgârıyla ürperiyorum;\nDinmiş lodosların uğultusu içinde\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBir yosma geçiyor kaldırımdan;\nKüfürler, şarkılar, türküler, laf atmalar.\nBir şey düşüyor elinden yere;\nBir gül olmalı;\nİstanbul'u dinliyorum, gözlerim kapalı.\n\nİstanbul'u dinliyorum, gözlerim kapalı;\nBir kuş çırpınıyor eteklerinde;\nAlnın sıcak mı, değil mi, biliyorum;\nDudakların ıslak mı, değil mi, biliyorum;\nBeyaz bir ay doğuyor fıstıkların arkasından\nKalbinin atışlarını duyuyorum;\nİstanbul'u dinliyorum.",
+      "story": "Orhan Veli'nin en ünlü şiiri olan İstanbul'u Dinliyorum, 1947 yılında yazılmıştır. Şair, İstanbul'un seslerini, kokularını ve dokusunu altı kıtada resmetmiştir. Altı kıtanın her biri 'İstanbul'u dinliyorum, gözlerim kapalı' nakaratıyla başlar — son kıtada 'gözlerim kapalı' düşer, şair artık tam orada, sevgilisiyle birliktedir. Şiir duyularla ilerler: ilk kıtalarda işitme (rüzgâr, çıngırak, kuş), sonra dokunma ve koku, son kıtada sevgili — bütün İstanbul bir sevgiliye dönüşür.",
+      "commentary": "İstanbul'u Dinliyorum, şehir şiirlerinin zirvesidir. Her kıta bir duyuya seslenir ve okuyucu gözlerini kapatıp İstanbul'u gerçekten 'duyar'. Son kıtada şehir sevgiliye dönüşür — 'Kalbinin atışlarını duyuyorum' derken artık İstanbul ile sevgili aynı şeydir."
     },
     {
       "number": 2,
       "title": "Anlatamıyorum",
-      "summary": "Duyguların kelimelere sığmadığını anlatan üç kıtalık bir şiir. Dünyada en çok okunan ikinci Türkçe şiir olarak kabul edilir.",
-      "keyInsights": [
-        { "text": "Üç kıta, üç farklı boyut: birincide acı, ikincide kelimelerin yetersizliği, üçüncüde o 'anlatılamaz' yere yaklaşma — ama hiçbir zaman varılmama." },
-        { "text": "Şiirin Bella Eskenazi'ye ilham ile yazıldığı söylenir — Orhan Veli dalgın dalgın baktıktan sonra kâğıda bu satırları karalamıştır." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "Ağlasam sesimi duyar mısınız,\nMısralarımda;\nDokunabilir misiniz,\nGözyaşlarıma, ellerinizle?\n\nBilmezdim şarkıların bu kadar güzel,\nKelimelerinse kifayetsiz olduğunu\nBu derde düşmeden önce.\n\nBir yer var, biliyorum;\nHer şeyi söylemek mümkün;\nEpeyce yaklaşmışım, duyuyorum;\nAnlatamıyorum."
-        },
-        {
-          "type": "tip",
-          "title": "Şiirin Gücü",
-          "content": "On bir satırda bütün insanlığın ortak çaresizliği: hissettiklerimizi tam olarak anlatamamak. 'Epeyce yaklaşmışım, duyuyorum' dizesi hem umut hem çaresizlik taşır — o yer var ama oraya varamıyoruz."
-        }
-      ],
-      "quotes": [
-        { "text": "Ağlasam sesimi duyar mısınız, mısralarımda; dokunabilir misiniz, gözyaşlarıma, ellerinizle?" },
-        { "text": "Bir yer var, biliyorum; her şeyi söylemek mümkün; epeyce yaklaşmışım, duyuyorum; anlatamıyorum." }
-      ]
+      "content": "Ağlasam sesimi duyar mısınız,\nMısralarımda;\nDokunabilir misiniz,\nGözyaşlarıma, ellerinizle?\n\nBilmezdim şarkıların bu kadar güzel,\nKelimelerinse kifayetsiz olduğunu\nBu derde düşmeden önce.\n\nBir yer var, biliyorum;\nHer şeyi söylemek mümkün;\nEpeyce yaklaşmışım, duyuyorum;\nAnlatamıyorum.",
+      "story": "Duyguların kelimelere sığmadığını anlatan üç kıtalık bu şiir, dünyada en çok okunan ikinci Türkçe şiir olarak kabul edilir. Şiirin Bella Eskenazi'ye ilham ile yazıldığı söylenir — Orhan Veli dalgın dalgın baktıktan sonra kâğıda bu satırları karalamıştır.",
+      "commentary": "On bir satırda bütün insanlığın ortak çaresizliği: hissettiklerimizi tam olarak anlatamamak. 'Epeyce yaklaşmışım, duyuyorum' dizesi hem umut hem çaresizlik taşır — o yer var ama oraya varamıyoruz."
     },
     {
       "number": 3,
       "title": "Bedava",
-      "summary": "Hayatta bedava olan şeyleri sıralarken toplumsal bir eleştiriyi de içine sıkıştıran, Orhan Veli'nin en ironik şiirlerinden biri.",
-      "keyInsights": [
-        { "text": "Şiir 'bedava' tekrarıyla bir neşe havası yaratır ama satırlar ilerledikçe ironi derinleşir — hava bedava ama ekmek değil, hürriyet kelle fiyatına ama esirlik bedava." },
-        { "text": "Orhan Veli'nin toplumsal eleştirisi en yalın ve en vurucu halinde: eşitsizliği herkesin anlayacağı bir dilde söyler." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "Bedava yaşıyoruz, bedava;\nHava bedava, bulut bedava;\nDere tepe bedava;\nYağmur çamur bedava;\nOtomobillerin dışı,\nSinemaların kapısı,\nCamekânlar bedava;\nPeynir ekmek değil ama\nAcı su bedava;\nKelle fiyatına hürriyet,\nEsirlik bedava;\nBedava yaşıyoruz, bedava."
-        },
-        {
-          "type": "warning",
-          "title": "Görünen Neşenin Altındaki Acı",
-          "content": "İlk bakışta şen bir şarkı gibi görünen bu şiir, aslında derin bir toplumsal eleştiridir. Bedava olan şeyler doğanın verdikleridir — hava, bulut, yağmur. Ama insanın yaşaması için gerekli olan — ekmek, özgürlük — bedava değildir. 'Kelle fiyatına hürriyet' dizesi, şiirin en acı ve en güçlü satırıdır."
-        }
-      ],
-      "quotes": [
-        { "text": "Bedava yaşıyoruz, bedava; hava bedava, bulut bedava; dere tepe bedava." },
-        { "text": "Kelle fiyatına hürriyet, esirlik bedava." }
-      ]
+      "content": "Bedava yaşıyoruz, bedava;\nHava bedava, bulut bedava;\nDere tepe bedava;\nYağmur çamur bedava;\nOtomobillerin dışı,\nSinemaların kapısı,\nCamekânlar bedava;\nPeynir ekmek değil ama\nAcı su bedava;\nKelle fiyatına hürriyet,\nEsirlik bedava;\nBedava yaşıyoruz, bedava.",
+      "story": "Hayatta bedava olan şeyleri sıralarken toplumsal bir eleştiriyi de içine sıkıştıran bu şiir, Orhan Veli'nin en ironik şiirlerinden biridir. Şiir 'bedava' tekrarıyla bir neşe havası yaratır ama satırlar ilerledikçe ironi derinleşir — hava bedava ama ekmek değil, hürriyet kelle fiyatına ama esirlik bedava.",
+      "commentary": "İlk bakışta şen bir şarkı gibi görünen bu şiir, aslında derin bir toplumsal eleştiridir. Bedava olan şeyler doğanın verdikleridir — hava, bulut, yağmur. Ama insanın yaşaması için gerekli olan — ekmek, özgürlük — bedava değildir. 'Kelle fiyatına hürriyet' dizesi, şiirin en acı ve en güçlü satırıdır."
     },
     {
       "number": 4,
       "title": "Macera",
-      "summary": "Çocukluk hayallerinin yetişkinlik gerçeğiyle çarpışmasını anlatan şiir. Ahmet Kaya tarafından 1985'te bestelenerek ikinci bir hayat kazanmıştır.",
-      "keyInsights": [
-        { "text": "Üç kıta, üç dönem: çocukken denizaltı hayalleri, gençken gemilere binme arzusu, büyüyünce fabrikadan çıkamama — hayallerin gerçekle ezilmesi." },
-        { "text": "Ahmet Kaya bu şiiri 1985'te 'Acılara Tutunmak' albümünde bestelemiş ve şiire yepyeni bir hayat vermiştir." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "Ben çocukken denizlerin altında\nSular altında yeşil çayırlar varmış,\nBir bilsem ne güzel olurdu\nO çayırlarda oynamak.\n\nBen çocukken gemilere binmek,\nGurbet ellere gitmek isterdim;\nOrda büyük fabrikalar varmış,\nHele bir büyüyeyim derdim.\n\nBüyüdüm, denizlerin altını görmedim,\nGemilere binip gidemem;\nFabrikalardan çıkmaya vaktim yok,\nÇayırlarda oynayamam."
-        },
-        {
-          "type": "warning",
-          "title": "Çocukluğun Kaybı",
-          "content": "Şiirin acısı son kıtada patlar: büyüdüm ama çocukken hayal ettiğim hiçbir şeyi yaşayamadım. Denizlerin altını görmedim, gemilere binemedim, fabrikadan çıkamıyorum, çayırlarda oynayamıyorum. Macera, aslında hiç yaşanamamış bir maceranın ağıdıdır."
-        }
-      ],
-      "quotes": [
-        { "text": "Büyüdüm, denizlerin altını görmedim, gemilere binip gidemem; fabrikalardan çıkmaya vaktim yok, çayırlarda oynayamam." },
-        { "text": "Ben çocukken denizlerin altında sular altında yeşil çayırlar varmış." }
-      ]
+      "content": "Ben çocukken denizlerin altında\nSular altında yeşil çayırlar varmış,\nBir bilsem ne güzel olurdu\nO çayırlarda oynamak.\n\nBen çocukken gemilere binmek,\nGurbet ellere gitmek isterdim;\nOrda büyük fabrikalar varmış,\nHele bir büyüyeyim derdim.\n\nBüyüdüm, denizlerin altını görmedim,\nGemilere binip gidemem;\nFabrikalardan çıkmaya vaktim yok,\nÇayırlarda oynayamam.",
+      "story": "Çocukluk hayallerinin yetişkinlik gerçeğiyle çarpışmasını anlatan bu şiir, Ahmet Kaya tarafından 1985'te 'Acılara Tutunmak' albümünde bestelenerek ikinci bir hayat kazanmıştır. Üç kıta, üç dönem: çocukken denizaltı hayalleri, gençken gemilere binme arzusu, büyüyünce fabrikadan çıkamama — hayallerin gerçekle ezilmesi.",
+      "commentary": "Şiirin acısı son kıtada patlar: büyüdüm ama çocukken hayal ettiğim hiçbir şeyi yaşayamadım. Denizlerin altını görmedim, gemilere binemedim, fabrikadan çıkamıyorum, çayırlarda oynayamıyorum. Macera, aslında hiç yaşanamamış bir maceranın ağıdıdır."
     },
     {
       "number": 5,
       "title": "Kitabe-i Seng-i Mezar",
-      "summary": "Sıradan bir adamın — Süleyman Efendi'nin — hayatını ve ölümünü anlatan üç bölümlük şiir. Orhan Veli'nin 'küçük adam' temasının en güçlü örneği.",
-      "keyInsights": [
-        { "text": "Şiirin adı 'Mezar Taşı Yazısı' anlamına gelir — Osmanlıca başlık, içerideki son derece sade dille bilinçli bir tezat yaratır." },
-        { "text": "Süleyman Efendi, edebiyatın tarih boyunca görmezden geldiği sıradan insanın simgesidir. Nasırından başka derdi olmayan, ölümünde bile alacaklıları helal eden, ismi bile unutulan bir adam." },
-        { "text": "Şiir üç bölümden oluşur: yaşarken (I), ölürken (II), öldükten sonra (III) — her bölüm Süleyman Efendi'nin sıradanlığını farklı bir açıdan gösterir." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "I. Bölüm — Yaşarken",
-          "content": "Hiçbir şeyden çekmedi dünyada\nNasırdan çektiği kadar.\nHatta çirkin yaratıldığından bile\nO kadar müteessir değildi.\nKundurası vurmadığı zamanlarda\nAnmazdı Allahın adını;\nAma günahkâr da sayılmazdı;\nYazık oldu Süleyman Efendiye."
-        },
-        {
-          "type": "concept",
-          "title": "II. Bölüm — Ölürken",
-          "content": "\"To be or not to be\" meselesi\nHallolunamamıştır henüz;\nSüleyman Efendi için olsa\nMesele yoktu.\nBir akşam uyudu, uyanamadı.\nYıkandı, namazı kılındı, gömüldü.\nAlacaklıları hakkını helal etsin;\nZaten rahmetlinin alacağı yoktu."
-        },
-        {
-          "type": "concept",
-          "title": "III. Bölüm — Öldükten Sonra",
-          "content": "Tüfeği depoya teslim edildi;\nEsvabı başkasına verildi;\nÖyle bir rüzgâr ki,\nKendisi gittiği gibi\nİsmi bile kalmadı yadigâr.\nYalnız, kahve ocağında\nEl yazısıyla bir beyit:\n\"Ölüm Allahın emri,\nAyrılık olmasaydı.\""
-        },
-        {
-          "type": "tip",
-          "title": "Şiirin Önemi",
-          "content": "Kitabe-i Seng-i Mezar, Türk şiirinin küçük adama açtığı en büyük kapıdır. Orhan Veli, Süleyman Efendi'yi anlatırken aslında milyonlarca 'görünmez' insanı görünür kılar. Şiirin sonundaki 'Ölüm Allahın emri, ayrılık olmasaydı' beyiti, sıradan insanın bile şiir yazabildiğinin — ve o şiirin en yüce şiirlerden güzel olabileceğinin kanıtıdır."
-        }
-      ],
-      "quotes": [
-        { "text": "Hiçbir şeyden çekmedi dünyada, nasırdan çektiği kadar." },
-        { "text": "Yazık oldu Süleyman Efendiye." },
-        { "text": "Ölüm Allahın emri, ayrılık olmasaydı." }
-      ]
+      "content": "I\n\nHiçbir şeyden çekmedi dünyada\nNasırdan çektiği kadar.\nHatta çirkin yaratıldığından bile\nO kadar müteessir değildi.\nKundurası vurmadığı zamanlarda\nAnmazdı Allahın adını;\nAma günahkâr da sayılmazdı;\nYazık oldu Süleyman Efendiye.\n\nII\n\n\"To be or not to be\" meselesi\nHallolunamamıştır henüz;\nSüleyman Efendi için olsa\nMesele yoktu.\nBir akşam uyudu, uyanamadı.\nYıkandı, namazı kılındı, gömüldü.\nAlacaklıları hakkını helal etsin;\nZaten rahmetlinin alacağı yoktu.\n\nIII\n\nTüfeği depoya teslim edildi;\nEsvabı başkasına verildi;\nÖyle bir rüzgâr ki,\nKendisi gittiği gibi\nİsmi bile kalmadı yadigâr.\nYalnız, kahve ocağında\nEl yazısıyla bir beyit:\n\"Ölüm Allahın emri,\nAyrılık olmasaydı.\"",
+      "story": "Sıradan bir adamın — Süleyman Efendi'nin — hayatını ve ölümünü anlatan üç bölümlük şiir. Orhan Veli'nin 'küçük adam' temasının en güçlü örneğidir. Şiirin adı 'Mezar Taşı Yazısı' anlamına gelir — Osmanlıca başlık, içerideki son derece sade dille bilinçli bir tezat yaratır. Süleyman Efendi, edebiyatın tarih boyunca görmezden geldiği sıradan insanın simgesidir.",
+      "commentary": "Kitabe-i Seng-i Mezar, Türk şiirinin küçük adama açtığı en büyük kapıdır. Orhan Veli, Süleyman Efendi'yi anlatırken aslında milyonlarca 'görünmez' insanı görünür kılar. Şiirin sonundaki 'Ölüm Allahın emri, ayrılık olmasaydı' beyiti, sıradan insanın bile şiir yazabildiğinin — ve o şiirin en yüce şiirlerden güzel olabileceğinin kanıtıdır."
     },
     {
       "number": 6,
       "title": "Güzel Havalar",
-      "summary": "Güzel havaların insanı nasıl mahvettiğini anlatan, Orhan Veli'nin en sevimli ve en ironik şiirlerinden biri.",
-      "keyInsights": [
-        { "text": "Şiir bir suçlama gibi başlar — 'Beni bu güzel havalar mahvetti' — ama suçlanan şey güzel havadır. Her kötü alışkanlık, her sorumsuzluk güzel havanın suçudur." },
-        { "text": "Orhan Veli'nin hayata bakışının özeti: ciddi meseleleri (istifa, alışkanlık, sorumsuzluk) gülerek, omuz silkerek anlatmak." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "Beni bu güzel havalar mahvetti,\nBöyle havada istifa ettim\nEvkaftaki memuriyetimden.\nTütüne böyle havada alıştım,\nBöyle havada âşık oldum;\nEve ekmekle tuz götürmeyi\nBöyle havalarda unuttum;\nŞiir yazma hastalığım\nHep böyle havalarda nüksetti;\nBeni bu güzel havalar mahvetti."
-        },
-        {
-          "type": "tip",
-          "title": "Şiirin Sırrı",
-          "content": "Güzel Havalar, aslında bir özgürlük manifestosudur. Orhan Veli memuriyetten istifa etmiş, şiire kendini adamış, toplumun beklediği 'düzgün hayat'ı reddetmiştir — ve bunun suçlusu olarak güzel havayı gösterir. Şiirin döngüsel yapısı (ilk ve son dize aynı) güzel havaların kaçınılmazlığını vurgular."
-        }
-      ],
-      "quotes": [
-        { "text": "Beni bu güzel havalar mahvetti." },
-        { "text": "Şiir yazma hastalığım hep böyle havalarda nüksetti." }
-      ]
+      "content": "Beni bu güzel havalar mahvetti,\nBöyle havada istifa ettim\nEvkaftaki memuriyetimden.\nTütüne böyle havada alıştım,\nBöyle havada âşık oldum;\nEve ekmekle tuz götürmeyi\nBöyle havalarda unuttum;\nŞiir yazma hastalığım\nHep böyle havalarda nüksetti;\nBeni bu güzel havalar mahvetti.",
+      "story": "Güzel havaların insanı nasıl mahvettiğini anlatan bu şiir, Orhan Veli'nin en sevimli ve en ironik şiirlerinden biridir. Orhan Veli memuriyetten istifa etmiş, şiire kendini adamış, toplumun beklediği 'düzgün hayat'ı reddetmiştir — ve bunun suçlusu olarak güzel havayı gösterir.",
+      "commentary": "Güzel Havalar, aslında bir özgürlük manifestosudur. Şiirin döngüsel yapısı (ilk ve son dize aynı) güzel havaların kaçınılmazlığını vurgular. Her kötü alışkanlık, her sorumsuzluk güzel havanın suçudur — ciddi meseleleri gülerek, omuz silkerek anlatmak Orhan Veli'nin hayata bakışının özetidir."
     },
     {
       "number": 7,
       "title": "Sereserpe",
-      "summary": "Sekiz satırda arzuyu, yalnızlığı ve güzellik arayışını anlatan, Orhan Veli'nin en cesur ve en yalın şiirlerinden biri.",
-      "keyInsights": [
-        { "text": "Şiir iki parçadan oluşur: ilk dört satır 'sen' — çıplak, hareketsiz, dünyaya kayıtsız; son dört satır 'ben' — hâlâ arayan, bulamayan, doyamayan." },
-        { "text": "Bella Eskenazi'ye yazıldığı söylenen bu şiir, Orhan Veli'nin fiziksel güzellikle ruhsal arayışı birleştirdiği ender anlardan biridir." }
-      ],
-      "notes": [
-        {
-          "type": "concept",
-          "title": "Şiir Metni",
-          "content": "Sereserpe uzanmışsın\nYüzükoyun,\nÇıplak;\nKımıldanmıyorsun.\nBense hâlâ\nBoş yere,\nHâlâ,\nBir çift güzel göz arıyorum."
-        },
-        {
-          "type": "tip",
-          "title": "Şiirin Derinliği",
-          "content": "Sereserpe, Orhan Veli'nin en cesur şiirlerinden biridir. Karşısında çıplak uzanan bir beden varken bile 'bir çift güzel göz' aramaya devam eden şair, fiziksel güzelliğin ötesinde bir şey aradığını — belki ruhu, belki bağı, belki gerçek yakınlığı — itiraf eder. 'Hâlâ' kelimesinin iki kez tekrarı, bu arayışın bitmeyeceğini hissettirir."
-        }
-      ],
-      "quotes": [
-        { "text": "Sereserpe uzanmışsın, yüzükoyun, çıplak; kımıldanmıyorsun." },
-        { "text": "Bense hâlâ, boş yere, hâlâ, bir çift güzel göz arıyorum." }
-      ]
+      "content": "Sereserpe uzanmışsın\nYüzükoyun,\nÇıplak;\nKımıldanmıyorsun.\nBense hâlâ\nBoş yere,\nHâlâ,\nBir çift güzel göz arıyorum.",
+      "story": "Bella Eskenazi'ye yazıldığı söylenen bu şiir, Orhan Veli'nin fiziksel güzellikle ruhsal arayışı birleştirdiği ender anlardan biridir. Şiir iki parçadan oluşur: ilk dört satır 'sen' — çıplak, hareketsiz, dünyaya kayıtsız; son dört satır 'ben' — hâlâ arayan, bulamayan, doyamayan.",
+      "commentary": "Sereserpe, Orhan Veli'nin en cesur şiirlerinden biridir. Karşısında çıplak uzanan bir beden varken bile 'bir çift güzel göz' aramaya devam eden şair, fiziksel güzelliğin ötesinde bir şey aradığını — belki ruhu, belki bağı, belki gerçek yakınlığı — itiraf eder. 'Hâlâ' kelimesinin iki kez tekrarı, bu arayışın bitmeyeceğini hissettirir."
     }
   ]
 }

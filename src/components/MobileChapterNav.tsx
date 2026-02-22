@@ -11,7 +11,13 @@ interface MobileChapterNavProps {
 
 export function MobileChapterNav({ book, activeChapter }: MobileChapterNavProps) {
   const [isOpen, setIsOpen] = useState(false);
-  const current = book.chapters.find((c) => c.number === activeChapter);
+  const isPoetry = book.type === "poetry" && book.poems;
+
+  const items = isPoetry
+    ? book.poems!.map((p) => ({ number: p.number, title: p.title }))
+    : book.chapters.map((c) => ({ number: c.number, title: c.title }));
+
+  const current = items.find((item) => item.number === activeChapter);
 
   return (
     <div className="lg:hidden">
@@ -21,7 +27,9 @@ export function MobileChapterNav({ book, activeChapter }: MobileChapterNavProps)
       >
         <div>
           <p className="text-xs text-zinc-500 dark:text-zinc-400">
-            Chapter {activeChapter} of {book.totalChapters}
+            {isPoetry
+              ? `${activeChapter} / ${book.totalChapters}`
+              : `Chapter ${activeChapter} of ${book.totalChapters}`}
           </p>
           <p className="font-medium text-zinc-900 dark:text-zinc-100">
             {current?.title}
@@ -40,29 +48,33 @@ export function MobileChapterNav({ book, activeChapter }: MobileChapterNavProps)
 
       {isOpen && (
         <div className="mt-2 rounded-lg border border-zinc-200 bg-white p-2 dark:border-zinc-700 dark:bg-zinc-900">
-          {book.chapters.map((chapter) => {
-            const isActive = chapter.number === activeChapter;
+          {items.map((item) => {
+            const isActive = item.number === activeChapter;
             return (
               <Link
-                key={chapter.number}
-                href={`/books/${book.slug}/${chapter.number}`}
+                key={item.number}
+                href={`/books/${book.slug}/${item.number}`}
                 onClick={() => setIsOpen(false)}
                 className={`flex items-center gap-2 rounded-md px-3 py-2 text-sm ${
                   isActive
-                    ? "bg-blue-50 font-medium text-blue-700 dark:bg-blue-950/50 dark:text-blue-400"
+                    ? isPoetry
+                      ? "bg-indigo-50 font-medium text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-400"
+                      : "bg-blue-50 font-medium text-blue-700 dark:bg-blue-950/50 dark:text-blue-400"
                     : "text-zinc-600 hover:bg-zinc-50 dark:text-zinc-400 dark:hover:bg-zinc-800"
                 }`}
               >
                 <span
                   className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs ${
                     isActive
-                      ? "bg-blue-600 font-bold text-white"
+                      ? isPoetry
+                        ? "bg-indigo-600 font-bold text-white"
+                        : "bg-blue-600 font-bold text-white"
                       : "bg-zinc-200 text-zinc-500 dark:bg-zinc-700 dark:text-zinc-400"
                   }`}
                 >
-                  {chapter.number}
+                  {item.number}
                 </span>
-                {chapter.title}
+                {item.title}
               </Link>
             );
           })}
