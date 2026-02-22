@@ -88,26 +88,26 @@
     {
       "number": 4,
       "title": "Macera",
-      "summary": "Günlük hayatın sıkıntısından kaçıp denizlere açılma hayalini anlatan, Orhan Veli'nin özgürlük ve keşif arzusunu yansıtan bir şiir.",
+      "summary": "Çocukluk hayallerinin yetişkinlik gerçeğiyle çarpışmasını anlatan şiir. Ahmet Kaya tarafından 1985'te bestelenerek ikinci bir hayat kazanmıştır.",
       "keyInsights": [
-        { "text": "Orhan Veli'nin karakteristik 'bunalım' hali: sıradan hayattan bunalan şair, denizlere, bilinmeyen limanlara açılma hayali kurar." },
-        { "text": "Şiir, Garip akımının ruhunu yansıtır — süslü sözcükler yerine yalın bir dille, herkesin hissettiği o 'kaçıp gitme' arzusunu dile getirir." }
+        { "text": "Üç kıta, üç dönem: çocukken denizaltı hayalleri, gençken gemilere binme arzusu, büyüyünce fabrikadan çıkamama — hayallerin gerçekle ezilmesi." },
+        { "text": "Ahmet Kaya bu şiiri 1985'te 'Acılara Tutunmak' albümünde bestelemiş ve şiire yepyeni bir hayat vermiştir." }
       ],
       "notes": [
         {
           "type": "concept",
           "title": "Şiir Metni",
-          "content": "Bunalıyorum, nedense!\nArtık denizlere açılmalı,\nBilmediğim limanlara varmalı;\nGüneşle tutuşmuş bir geminin\nRüzgârlara bırakılmış yelkenlerini\nBir parça olsun koklamalı;\nÇekilmeli kıyılara dalgaların;\nAyın suda aksini görmeli;\nHani nerde o uçurtma uçurduğum tepeler?\nBunalıyorum, nedense!"
+          "content": "Ben çocukken denizlerin altında\nSular altında yeşil çayırlar varmış,\nBir bilsem ne güzel olurdu\nO çayırlarda oynamak.\n\nBen çocukken gemilere binmek,\nGurbet ellere gitmek isterdim;\nOrda büyük fabrikalar varmış,\nHele bir büyüyeyim derdim.\n\nBüyüdüm, denizlerin altını görmedim,\nGemilere binip gidemem;\nFabrikalardan çıkmaya vaktim yok,\nÇayırlarda oynayamam."
         },
         {
-          "type": "tip",
-          "title": "Neden Bu Şiir Hâlâ Güncel?",
-          "content": "Herkes hayatında en az bir kez 'Bunalıyorum, nedense!' demiştir. Orhan Veli bu evrensel duyguyu bir deniz yolculuğu hayaliyle birleştirir. Bilinmeyen limanlar, güneşle tutuşmuş gemiler — bunlar sadece coğrafi değil, ruhsal kaçış noktalarıdır."
+          "type": "warning",
+          "title": "Çocukluğun Kaybı",
+          "content": "Şiirin acısı son kıtada patlar: büyüdüm ama çocukken hayal ettiğim hiçbir şeyi yaşayamadım. Denizlerin altını görmedim, gemilere binemedim, fabrikadan çıkamıyorum, çayırlarda oynayamıyorum. Macera, aslında hiç yaşanamamış bir maceranın ağıdıdır."
         }
       ],
       "quotes": [
-        { "text": "Bunalıyorum, nedense! Artık denizlere açılmalı, bilmediğim limanlara varmalı." },
-        { "text": "Hani nerde o uçurtma uçurduğum tepeler?" }
+        { "text": "Büyüdüm, denizlerin altını görmedim, gemilere binip gidemem; fabrikalardan çıkmaya vaktim yok, çayırlarda oynayamam." },
+        { "text": "Ben çocukken denizlerin altında sular altında yeşil çayırlar varmış." }
       ]
     },
     {
@@ -149,51 +149,52 @@
     },
     {
       "number": 6,
-      "title": "Vatan İçin",
-      "summary": "Üç satırda vatanseverliğin eleştirisini yapan, Orhan Veli'nin en kısa ve en vurucu şiirlerinden biri.",
+      "title": "Güzel Havalar",
+      "summary": "Güzel havaların insanı nasıl mahvettiğini anlatan, Orhan Veli'nin en sevimli ve en ironik şiirlerinden biri.",
       "keyInsights": [
-        { "text": "Üç satır, iki farklı 'vatanseverlik': biri canını verenler, diğeri nutuk atanlar — aradaki uçurum şiirin tamamıdır." },
-        { "text": "Orhan Veli'nin mizahı en keskin halinde: üç satırda tüm bir toplumsal eleştiri." }
+        { "text": "Şiir bir suçlama gibi başlar — 'Beni bu güzel havalar mahvetti' — ama suçlanan şey güzel havadır. Her kötü alışkanlık, her sorumsuzluk güzel havanın suçudur." },
+        { "text": "Orhan Veli'nin hayata bakışının özeti: ciddi meseleleri (istifa, alışkanlık, sorumsuzluk) gülerek, omuz silkerek anlatmak." }
       ],
       "notes": [
         {
           "type": "concept",
           "title": "Şiir Metni",
-          "content": "Neler yapmadık bu vatan için!\nKimimiz öldük;\nKimimiz nutuk söyledik."
+          "content": "Beni bu güzel havalar mahvetti,\nBöyle havada istifa ettim\nEvkaftaki memuriyetimden.\nTütüne böyle havada alıştım,\nBöyle havada âşık oldum;\nEve ekmekle tuz götürmeyi\nBöyle havalarda unuttum;\nŞiir yazma hastalığım\nHep böyle havalarda nüksetti;\nBeni bu güzel havalar mahvetti."
         },
         {
           "type": "tip",
-          "title": "Şiirin Gücü",
-          "content": "Sadece üç satır. Ama bu üç satırda Orhan Veli, yüzyıllardır süren bir ikiyüzlülüğü gözler önüne serer: gerçekten bedel ödeyenlerle, ödeyenler adına konuşanlar arasındaki farkı. 'Kimimiz öldük' ile 'kimimiz nutuk söyledik' arasındaki noktalı virgül, bir uçurumdur."
+          "title": "Şiirin Sırrı",
+          "content": "Güzel Havalar, aslında bir özgürlük manifestosudur. Orhan Veli memuriyetten istifa etmiş, şiire kendini adamış, toplumun beklediği 'düzgün hayat'ı reddetmiştir — ve bunun suçlusu olarak güzel havayı gösterir. Şiirin döngüsel yapısı (ilk ve son dize aynı) güzel havaların kaçınılmazlığını vurgular."
         }
       ],
       "quotes": [
-        { "text": "Neler yapmadık bu vatan için! Kimimiz öldük; kimimiz nutuk söyledik." }
+        { "text": "Beni bu güzel havalar mahvetti." },
+        { "text": "Şiir yazma hastalığım hep böyle havalarda nüksetti." }
       ]
     },
     {
       "number": 7,
-      "title": "Dedikodu",
-      "summary": "Orhan Veli'nin toplumsal eleştirisini mizahla birleştirdiği, sokaktaki insanın diline yakın bir şiir.",
+      "title": "Sereserpe",
+      "summary": "Sekiz satırda arzuyu, yalnızlığı ve güzellik arayışını anlatan, Orhan Veli'nin en cesur ve en yalın şiirlerinden biri.",
       "keyInsights": [
-        { "text": "Orhan Veli, dedikoduyu bir toplumsal hastalık olarak değil, insanın doğasının bir parçası olarak ele alır — eleştirir ama yargılamaz." },
-        { "text": "Şiir, Garip akımının temel ilkesini yansıtır: şiirin konusu her şey olabilir, en sıradan, en gündelik şey bile." }
+        { "text": "Şiir iki parçadan oluşur: ilk dört satır 'sen' — çıplak, hareketsiz, dünyaya kayıtsız; son dört satır 'ben' — hâlâ arayan, bulamayan, doyamayan." },
+        { "text": "Bella Eskenazi'ye yazıldığı söylenen bu şiir, Orhan Veli'nin fiziksel güzellikle ruhsal arayışı birleştirdiği ender anlardan biridir." }
       ],
       "notes": [
         {
           "type": "concept",
           "title": "Şiir Metni",
-          "content": "İçimizden biri,\nTanımadığımız biri,\nBir yerlere gizlenmiş oturmuş\nHepimizi çekiştiriyor.\n\nKim olduğunu bilsek\nÖnce dövecek,\nSonra sevecektik.\nNe yapalım,\nDedikodu bu."
+          "content": "Sereserpe uzanmışsın\nYüzükoyun,\nÇıplak;\nKımıldanmıyorsun.\nBense hâlâ\nBoş yere,\nHâlâ,\nBir çift güzel göz arıyorum."
         },
         {
           "type": "tip",
-          "title": "Orhan Veli'nin Mizahı",
-          "content": "Dedikodu, Orhan Veli'nin en keskin silahı olan mizahın güzel bir örneğidir. 'Önce dövecek, sonra sevecektik' dizesi, insanın dedikoduyla olan çelişkili ilişkisini tek cümlede özetler — hem kızarız hem merak ederiz."
+          "title": "Şiirin Derinliği",
+          "content": "Sereserpe, Orhan Veli'nin en cesur şiirlerinden biridir. Karşısında çıplak uzanan bir beden varken bile 'bir çift güzel göz' aramaya devam eden şair, fiziksel güzelliğin ötesinde bir şey aradığını — belki ruhu, belki bağı, belki gerçek yakınlığı — itiraf eder. 'Hâlâ' kelimesinin iki kez tekrarı, bu arayışın bitmeyeceğini hissettirir."
         }
       ],
       "quotes": [
-        { "text": "İçimizden biri, tanımadığımız biri, bir yerlere gizlenmiş oturmuş, hepimizi çekiştiriyor." },
-        { "text": "Önce dövecek, sonra sevecektik. Ne yapalım, dedikodu bu." }
+        { "text": "Sereserpe uzanmışsın, yüzükoyun, çıplak; kımıldanmıyorsun." },
+        { "text": "Bense hâlâ, boş yere, hâlâ, bir çift güzel göz arıyorum." }
       ]
     }
   ]
