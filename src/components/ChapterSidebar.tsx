@@ -10,6 +10,11 @@ interface ChapterSidebarProps {
 }
 
 export function ChapterSidebar({ book, activeChapter }: ChapterSidebarProps) {
+  const isPoetry = book.type === "poetry" && book.poems;
+  const items = isPoetry
+    ? book.poems!.map((p) => ({ number: p.number, title: p.title }))
+    : book.chapters.map((c) => ({ number: c.number, title: c.title }));
+
   return (
     <aside className="sticky top-20 hidden h-[calc(100vh-5rem)] w-72 shrink-0 overflow-y-auto border-r border-zinc-200 bg-white p-6 lg:block dark:border-zinc-800 dark:bg-zinc-950">
       {/* Book info */}
@@ -41,21 +46,23 @@ export function ChapterSidebar({ book, activeChapter }: ChapterSidebarProps) {
         <p className="text-sm text-zinc-600 dark:text-zinc-400">{book.author}</p>
       </Link>
 
-      {/* Chapter list */}
+      {/* Chapter/Poem list */}
       <div className="mb-4">
         <h3 className="mb-3 text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-500">
-          Chapters
+          {isPoetry ? "Şiirler" : "Chapters"}
         </h3>
         <nav className="flex flex-col gap-1">
-          {book.chapters.map((chapter) => {
-            const isActive = chapter.number === activeChapter;
+          {items.map((item) => {
+            const isActive = item.number === activeChapter;
             return (
               <Link
-                key={chapter.number}
-                href={`/books/${book.slug}/${chapter.number}`}
+                key={item.number}
+                href={`/books/${book.slug}/${item.number}`}
                 className={`rounded-lg px-3 py-2.5 text-sm transition-all ${
                   isActive
-                    ? "bg-blue-50 font-medium text-blue-700 dark:bg-blue-950/50 dark:text-blue-400"
+                    ? isPoetry
+                      ? "bg-indigo-50 font-medium text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-400"
+                      : "bg-blue-50 font-medium text-blue-700 dark:bg-blue-950/50 dark:text-blue-400"
                     : "text-zinc-600 hover:bg-zinc-50 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-zinc-200"
                 }`}
               >
@@ -63,13 +70,15 @@ export function ChapterSidebar({ book, activeChapter }: ChapterSidebarProps) {
                   <span
                     className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs ${
                       isActive
-                        ? "bg-blue-600 font-bold text-white"
+                        ? isPoetry
+                          ? "bg-indigo-600 font-bold text-white"
+                          : "bg-blue-600 font-bold text-white"
                         : "bg-zinc-200 text-zinc-500 dark:bg-zinc-700 dark:text-zinc-400"
                     }`}
                   >
-                    {chapter.number}
+                    {item.number}
                   </span>
-                  <span className="truncate">{chapter.title}</span>
+                  <span className="truncate">{item.title}</span>
                 </div>
               </Link>
             );

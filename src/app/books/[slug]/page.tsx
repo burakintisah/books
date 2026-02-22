@@ -13,6 +13,8 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
 
   if (!book) notFound();
 
+  const isPoetry = book.type === "poetry" && book.poems;
+
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
       {/* Back */}
@@ -70,50 +72,91 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
         </div>
       </div>
 
-      {/* Chapter List */}
-      <h2 className="mb-6 text-xl font-bold text-zinc-900 dark:text-zinc-100">
-        Chapters ({book.chapters.length})
-      </h2>
+      {/* Poem list for poetry books */}
+      {isPoetry ? (
+        <>
+          <h2 className="mb-6 text-xl font-bold text-zinc-900 dark:text-zinc-100">
+            Şiirler ({book.poems!.length})
+          </h2>
 
-      <div className="flex flex-col gap-4">
-        {book.chapters.map((chapter) => (
-          <Link
-            key={chapter.number}
-            href={`/books/${book.slug}/${chapter.number}`}
-            className="group rounded-xl border border-zinc-200 bg-white p-5 transition-all hover:border-blue-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-blue-800"
-          >
-            <div className="flex items-start gap-4">
-              <span
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-sm font-bold text-zinc-600 group-hover:bg-blue-100 group-hover:text-blue-700 dark:bg-zinc-800 dark:text-zinc-400 dark:group-hover:bg-blue-950 dark:group-hover:text-blue-400"
+          <div className="flex flex-col gap-4">
+            {book.poems!.map((poem) => (
+              <Link
+                key={poem.number}
+                href={`/books/${book.slug}/${poem.number}`}
+                className="group rounded-xl border border-zinc-200 bg-white p-5 transition-all hover:border-indigo-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-indigo-800"
               >
-                {chapter.number}
-              </span>
-              <div className="flex-1">
-                <h3 className="font-semibold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-100 dark:group-hover:text-blue-400">
-                  {chapter.title}
-                </h3>
-                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  {chapter.summary}
-                </p>
-                <div className="mt-3 flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-500">
-                  <span>💡 {chapter.keyInsights.length} insights</span>
-                  <span>📝 {chapter.notes.length} notes</span>
-                  <span>💬 {chapter.quotes.length} quotes</span>
+                <div className="flex items-center gap-4">
+                  <span
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-sm font-bold text-indigo-600 group-hover:bg-indigo-100 group-hover:text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-400 dark:group-hover:bg-indigo-950 dark:group-hover:text-indigo-300"
+                  >
+                    {poem.number}
+                  </span>
+                  <h3 className="flex-1 font-semibold text-zinc-900 group-hover:text-indigo-600 dark:text-zinc-100 dark:group-hover:text-indigo-400">
+                    {poem.title}
+                  </h3>
+                  <svg
+                    className="h-5 w-5 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-1 group-hover:text-indigo-500 dark:text-zinc-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
                 </div>
-              </div>
-              <svg
-                className="h-5 w-5 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-1 group-hover:text-blue-500 dark:text-zinc-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
+              </Link>
+            ))}
+          </div>
+        </>
+      ) : (
+        <>
+          {/* Chapter List */}
+          <h2 className="mb-6 text-xl font-bold text-zinc-900 dark:text-zinc-100">
+            Chapters ({book.chapters.length})
+          </h2>
+
+          <div className="flex flex-col gap-4">
+            {book.chapters.map((chapter) => (
+              <Link
+                key={chapter.number}
+                href={`/books/${book.slug}/${chapter.number}`}
+                className="group rounded-xl border border-zinc-200 bg-white p-5 transition-all hover:border-blue-300 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-blue-800"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-              </svg>
-            </div>
-          </Link>
-        ))}
-      </div>
+                <div className="flex items-start gap-4">
+                  <span
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-sm font-bold text-zinc-600 group-hover:bg-blue-100 group-hover:text-blue-700 dark:bg-zinc-800 dark:text-zinc-400 dark:group-hover:bg-blue-950 dark:group-hover:text-blue-400"
+                  >
+                    {chapter.number}
+                  </span>
+                  <div className="flex-1">
+                    <h3 className="font-semibold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-100 dark:group-hover:text-blue-400">
+                      {chapter.title}
+                    </h3>
+                    <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                      {chapter.summary}
+                    </p>
+                    <div className="mt-3 flex items-center gap-4 text-xs text-zinc-500 dark:text-zinc-500">
+                      <span>💡 {chapter.keyInsights.length} insights</span>
+                      <span>📝 {chapter.notes.length} notes</span>
+                      <span>💬 {chapter.quotes.length} quotes</span>
+                    </div>
+                  </div>
+                  <svg
+                    className="h-5 w-5 shrink-0 text-zinc-300 transition-transform group-hover:translate-x-1 group-hover:text-blue-500 dark:text-zinc-600"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
 
       {/* Download */}
       {book.downloadFile && (
