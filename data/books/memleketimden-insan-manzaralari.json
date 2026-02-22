@@ -8,7 +8,7 @@
   "tags": ["şiir", "türk-edebiyatı", "nazım-hikmet", "destan", "toplumcu-gerçekçilik"],
   "rating": 5,
   "readDate": "2026-02-01",
-  "summary": "Nâzım Hikmet'in başyapıtı sayılan bu eser, 1908'den 1945'e uzanan bir zaman diliminde yaklaşık 200 karakterin hikâyesini anlatan 17.000 dizelik bir destansı şiirdir. Düzyazı, şiir ve senaryo tekniklerinin iç içe geçtiği eser, Anadolu insanının portresini çizer.",
+  "summary": "Nâzım Hikmet'in başyapıtı sayılan bu eser, 1908'den 1945'e uzanan bir zaman diliminde yaklaşık 200 karakterin hikâyesini anlatan 17.000 dizelik bir destansı şiirdir. Düzyazı, şiir ve senaryo tekniklerinin iç içe geçtiği eser, Anadolu insanının portresini çizer. Raymond Carver bu eser için 'Modern edebiyatın büyük eserlerinden biri' demiştir.",
   "totalChapters": 5,
   "chapters": [
     {
@@ -24,7 +24,7 @@
         {
           "type": "concept",
           "title": "Galip Usta — Merdivenlerdeki Adam",
-          "content": "Pulanyacı Galip Usta, 52 yaşında, işsiz. Hayatının her döneminde farklı şeyler düşünmüştür: Yirmi yaşında bıyıklarını, otuzunda ekmek parasını, kırkında akciğerlerinin filmini düşündü. Şimdi ise merdivenlerde durup hayatın anlamını sorguluyor. Sıradan bir işçinin portresi, tüm bir memleketin aynası haline geliyor."
+          "content": "Pulanyacı Galip Usta, 52 yaşında, işsiz. Zayıf, korkak, burnu sivri ve uzun. 'Tuhaf şeyler düşünmekle meşhurdur': 5 yaşında 'Kâat helva yesem her gün', 10 yaşında 'Mektebe gitsem', 11 yaşında 'Babamın bıçakçı dükkânından akşam ezanından önce çıksam' diye düşündü. 52 yaşında ise en garip düşüncesiyle merdivenlerde duruyor: 'Ne zaman öleceğim? Öleceğim bir yatağım olacak mı?' Sıradan bir işçinin portresi, tüm bir memleketin aynası haline geliyor."
         },
         {
           "type": "example",
@@ -42,9 +42,14 @@
           "content": "Haydarpaşa Garı'ndan iki tren ayrılır. Biri halkın treni: üçüncü mevki, tahta sıralar, tütün dumanı ve tereyağlı ekmekler. Diğeri zenginlerin treni: birinci sınıf, konfor ve kayıtsızlık. Aynı raylardan giden iki farklı memleket."
         },
         {
+          "type": "example",
+          "title": "Selim'in Hikâyesi — Sıradan Bir İstek",
+          "content": "Selim komünist falan değildi. Komünizmin ne olduğunu bile bilmiyordu. Sadece 18 yaşındaydı ve yirmi beş kuruş yerine elli kuruş, on dört saat yerine on saat istiyordu. Ama polisler farklı düşündü. Selim'i yere yatırdılar. Selim kalktığında ayaklarına basamıyordu. Bu sahne, ezilenlerin ideolog değil, sıradan istekleri olan sıradan insanlar olduğunu gösterir."
+        },
+        {
           "type": "tip",
-          "title": "Okuma Önerisi",
-          "content": "Birinci kitap, eserin tüm karakterlerinin tanıtıldığı bölümdür. Yavaş okunmalı, her karakter bir insan olarak hayal edilmeli. Nâzım'ın sinematografik dili, sahneyi gözünüzde canlandırmanıza yardımcı olur."
+          "title": "Piraye'ye İthaf",
+          "content": "Nâzım Hikmet bu eseri o dönem eşi olan Piraye'ye ithaf etmiştir — ve bunu şiirle yapmıştır: 'Hatice, Piraye, Pirayende. Doğum yeri neresi, kaç yaşında sormadım, düşünmedim, bilmiyorum. Dünyanın en iyi kadını, dünyanın en güzel kadını. Benim karım. Bu bahiste realite umrumda değil...' İthaftaki '...............biten bu kitap' ifadesindeki boşluk, eserin hiçbir zaman tamamlanamamış olmasının trajik bir işaretidir."
         }
       ],
       "quotes": [
@@ -65,8 +70,18 @@
       "notes": [
         {
           "type": "concept",
+          "title": "Atlantik'in Dibinden Açılış",
+          "content": "İkinci kitap düşsel bir sahneyle açılır: 'Atlantiğin dibinde upuzun yatıyorum, efendim.' Anlatıcı Atlantik'in dibinden yukarıya bakarak denizaltıları izler. 'Denizaltılar birden üç oldular, derken altı, yedi, sekiz...' Bu sahne, Türkiye'den dünya sahnesine geçişi simgeler — bakış açısı genişler, savaş artık tüm dünyanın savaşıdır."
+        },
+        {
+          "type": "concept",
           "title": "Kurtuluş Savaşı Sahneleri",
           "content": "Trendeki yolcuların anıları Kurtuluş Savaşı'na geri döner. Cephede savaşan köylüler, cephe gerisinde bekleyen kadınlar, açlık ve umut bir arada. Nâzım, savaşı kahramanlık destanı olarak değil, sıradan insanların çaresizliği ve direnci olarak anlatır."
+        },
+        {
+          "type": "example",
+          "title": "Garson Mustafa ve Kuvayi Milliye Destanı",
+          "content": "Trenin yemek vagonunda çalışan Garson Mustafa, cebinden sararmış bir defter çıkarır. 'Bunu hapiste bir adam yazmış' der ve okumaya başlar. Böylece Kuvayi Milliye Destanı, sıradan bir garsonun sesinden anlatılır — Nâzım, milletin hikâyesinin saraylardan değil, halkın ağzından anlatılması gerektiğini gösterir."
         },
         {
           "type": "example",
@@ -75,7 +90,7 @@
         },
         {
           "type": "concept",
-          "title": "Kadın Portreleceleri",
+          "title": "Kadın Portreleri",
           "content": "İkinci kitapta kadınlar öne çıkar: bekleyen eşler, çalışan anneler, hayalleri yarıda kalmış genç kızlar. Nâzım, Anadolu kadınının sessiz direnişini ve fedakârlığını en yalın haliyle resmeder."
         },
         {
@@ -145,7 +160,7 @@
         {
           "type": "example",
           "title": "Tanya'ya Şiir",
-          "content": "Dördüncü kitap, Alman faşizmine karşı savaşırken hayatını kaybeden genç partizan Tanya'ya (Zoya Kosmodemyanskaya) yazılan bir şiirle sona erer. Bu şiir, bireysel kahramanlığın evrensel bir direniş sembolüne dönüşmesidir."
+          "content": "Dördüncü kitap, 18 yaşında Sovyet partizan Tanya'ya (Zoya Kosmodemyanskaya) yazılan şiirle sona erer. Almanlar onu Petriçevo'da astılar. 'Moskova'dandı. Gençti, partizandı. Sevdi, anladı, inandı ve geçti harekete.' Son sözleri: 'Hepimizi, 190 milyon kişiyi asamazsınız!' Nâzım, Bursa Cezaevi'nden seslenir: 'Tanya, senin memleketini sevdiğin kadar ben de seviyorum memleketimi. Seni astılar memleketini sevdiğin için, ben memleketimi sevdiğim için hapisteyim. Ama ben yaşıyorum, ama sen öldün.'"
         },
         {
           "type": "concept",
