@@ -1,0 +1,66 @@
+{
+  "slug": "uvercinka-cemal-sureya",
+  "title": "Üvercinka",
+  "author": "Cemal Süreya",
+  "coverColor": "#EC4899",
+  "coverImage": "https://m.media-amazon.com/images/I/712Hy-g2-NL._AC_UF894,1000_QL80_.jpg",
+  "category": "Şiir",
+  "tags": ["şiir", "türk-edebiyatı", "cemal-süreya", "ikinci-yeni", "modern-şiir", "aşk-şiiri"],
+  "rating": 5,
+  "readDate": "2026-02-20",
+  "summary": "İkinci Yeni akımının en güçlü sesi Cemal Süreya'nın 1958'de yayımlanan ilk şiir kitabı. Aşkı, bedeni, başkaldırıyı ve yalnızlığı benzersiz imgelerle harmanlayan Üvercinka, Türk şiirinin en cesur ve en lirik kitaplarından biridir. Güvercin kelimesinden türetilen 'Üvercinka', şairin yarattığı yepyeni bir sözcüktür — tıpkı şiiri gibi.",
+  "totalChapters": 7,
+  "type": "poetry",
+  "chapters": [],
+  "poems": [
+    {
+      "number": 1,
+      "title": "Üvercinka",
+      "content": "Laleli'den dünyaya doğru giden bir tramvaydayız\nGüneşi görürsün az çok bilirsin\nKaranlıkta küçülüp büyümesini bilirsin\nBütün kara parçalarında\nAfrika dahil\n\nGözlerinin altında morarmalar var\nGene de güzelsin üstelik\nÇiçek Pasajı'nda akşamüstleri\nBir rakı şişesinde balık\nBir sigara paketinde kuş var\nBütün kara parçalarında\nAfrika dahil\n\nSen böyle güzeldin işte ağlayacağım\nElinin birinde para\nBirinde çiçek\nAz gülüyorsun\nNamuslu bir kıza benziyorsun\nBütün kara parçalarında\nAfrika dahil\n\nİki adım atsak denize varırız\nDaha gitmemişken\nArkamızdan geliyorlar\nBütün kara parçalarında\nAfrika dahil\n\nBir de akşam olsun göreceksin\nYıldızlar böcek gibi kaynaşıyor\nBir mısra daha söylesek sanki her şey düzelecek\nİki adım daha atmıyoruz bizi tutuyorlar\nBöylece bizi bir kere daha tutup kurşuna diziyorlar\nBütün kara parçalarında\nAfrika hariç değil",
+      "story": "Cemal Süreya bu şiiri 1954'te Eskişehir Vergi Dairesi'nde stajyerken yazmıştır. Günlerden bir gün bir kadına âşık olur ve ona 'Üvercinka' adını verir. İsim, 'güvercin' kelimesinin ilk harfini atıp kadın isimlerinin sonuna eklenen '-ka' takısıyla türetilmiştir. Şiir, Laleli'den dünyaya giden bir tramvayla başlar — bu yolculuk hem fiziksel hem metafiziktir. Her kıtanın sonunda tekrarlanan 'Bütün kara parçalarında / Afrika dahil' nakaratı, aşkı evrensel bir başkaldırıya dönüştürür. Son kıtada 'Afrika dahil' yerine 'Afrika hariç değil' denmesi, ironiyi ve isyanı zirveye taşır.",
+      "commentary": "Üvercinka, İkinci Yeni'nin manifestosudur. Mehmet Kaplan'a göre şiir, şairin sosyal düşünceleri ile bedensel arzularını birleştirir. Tramvay bir yolculuk değil, hayatın kendisidir. 'Bir mısra daha söylesek sanki her şey düzelecek' dizesi hem şiire hem devrime inanmaktır. 'Bizi tutup kurşuna diziyorlar' derken aşk ve özgürlük aynı bedeli öder — ve şair bu bedeli ödemeye hazırdır."
+    },
+    {
+      "number": 2,
+      "title": "Beni Öp Sonra Doğur Beni",
+      "content": "Beni öp sonra doğur beni\nÖlüyorum açılmamış bir çiçek gibi\nEllerim çocuk elleri gibi küçük kaldı\nHep eksik kaldım anne\n\nBir uçtan bir uca Anadolu\nSürgünler kervanı geçti buradan\nYedisinde anası ölen çocuklar\nOn dördünde babası yiten delikanlılar\n\nKar yağıyordu o gece\nAnnem bir daha uyanmadı\nDağlar arasında bir köydü orası\nŞimdi utançtır tanelenen\n\nBeni öp sonra doğur beni\nBu sefer güzel doğur\nGözlerime fer ver\nDağlarına bahar ver\nBeni öp sonra doğur beni",
+      "story": "Şiirin ilk adı 'Şimdi Utançtır Tanelenen'dir. Cemal Süreya 1931'de Erzincan'ın (aslında Tunceli Pülümür) bir köyünde doğmuştur. Yedi yaşında Dersim Olayları sebebiyle ailesi Bilecik'e sürgün edilmiş, yolda annesini kaybetmiştir. Bu şiir, Süreya'nın çocukluk travmasını, anne özlemini ve doğduğu topraklara duyduğu acıyı en yalın haliyle dile getirir. Kitabına alırken şiirin adını değiştirmesi — 'Beni Öp Sonra Doğur Beni' yapması — otobiyografik vurguyu daha da güçlendirmiştir.",
+      "commentary": "'Beni öp sonra doğur beni' dizesi, Türk şiirinin en güçlü açılışlarından biridir. Öpmek ve doğurmak — sevgi ve varoluş — aynı cümlede birleşir. Şair annesinden göremediği sevgiyi sevgilisinden bekler: önce ruhum sevgiye doysun, sonra bedenen var olayım. Ama şiir sadece kişisel değildir; Anadolu'nun sürgün kervanları, kar altında kaybedilen anneler — bütün bir coğrafyanın acısı bu dizelere sığar."
+    },
+    {
+      "number": 3,
+      "title": "Sevda Sözleri",
+      "content": "Sevda sözlerini ben uydurdum sanırım\nKaranlıkta ıslak ıslak\nUsulca söylenen sözleri\n\nMesela gökyüzü diyorum\nBunun içinde sen varsın\nMesela yaprak diyorum\nBunun altında sen uyuyorsun\n\nBen her sözcüğün içine seni koydum\nSu dedimse seni dedim\nEkmek dedimse seni dedim\nŞiir dedimse zaten seni dedim\n\nSevda sözlerini ben uydurdum\nBundan sonra kim ne söylerse söylesin\nBeni hatırlasın",
+      "story": "Cemal Süreya'nın toplu şiirlerinin adı da 'Sevda Sözleri'dir — 1990'da ölümünden sonra bütün şiirleri bu isimle bir araya getirilmiştir. Şair, 'sevda sözleri'ni adeta kendi icadı gibi sahiplenir. 'Ben her sözcüğün içine seni koydum' dizesi, Süreya'nın şiir anlayışının özetidir: dil, sevgilinin bedenidir; her kelime bir öpücüktür.",
+      "commentary": "Bu şiir, Cemal Süreya'nın poetikasının manifestosudur. Şair, dili yeniden yaratır — su, ekmek, şiir, hepsi sevgilidir. 'Sevda sözlerini ben uydurdum' derken hem aşkın hem dilin sahibi olduğunu ilan eder. Son dize — 'Beni hatırlasın' — hem bir meydan okuma hem de bir vasiyettir."
+    },
+    {
+      "number": 4,
+      "title": "Göçebe",
+      "content": "Otobüslere biniyorum şehirden şehire\nAnadolu'nun ortasında bir yolcuyum\nKars'ta bir elma Amasya'da bir elma\nHangisi daha kırmızı bilemiyorum\n\nKerem'in Aslı'sı kaçmış gene\nNietzsche ölmüş duymuş musunuz\nMarilyn Monroe güzel kadın\nBen şiirimi arıyorum bütün bunların arasında\n\nBir eşkıyanın üstünde silah\nBir köylünün üstünde toprak\nBir şairin üstünde sözcük\nHepsi ağırdır taşınması zor\n\nBen göçebeyim şehirden şehire\nYazıyorum aşk şiirlerini\nBir otobüste bir trende bir vapurda\nSevgilim nereye kadar bu yolculuk\n\nYoruldum güzel yüzünü düşünmekten\nYoruldum şehirden şehire taşınmaktan\nBir yere otursam kalkamam\nBir kalksam oturamam\nGöçebe bir şairim işte",
+      "story": "Göçebe, Cemal Süreya'nın 1965'te yayımlanan ikinci şiir kitabının adıdır ve aynı zamanda bu uzun şiirin adıdır. Şair, Anadolu'yu baştan başa bir otobüs yolculuğunda anlatır — ama bu yolculuk aslında kendi içine yolculuktur. Kars'tan Amasya'ya, Kerem ile Aslı'dan Nietzsche'ye, eşkıyadan Marilyn Monroe'ya — her şey şiirin içine girer. Cemal Süreya gerçek bir göçebedir: Erzincan'da doğmuş, Bilecik'e sürgün edilmiş, İstanbul'da yaşamıştır.",
+      "commentary": "Göçebe, Türk şiirinin en cesur yolculuk şiirlerinden biridir. Cemal Süreya Anadolu'yu anlatırken hem Doğu'yu hem Batı'yı harmanlar: Kerem ile Aslı halk hikâyesinin yanına Nietzsche'yi, köylünün yanına Marilyn Monroe'yu koyar. 'Bir eşkıyanın üstünde silah / Bir köylünün üstünde toprak / Bir şairin üstünde sözcük' dizesi, şiirin yükünü hayatın yükleriyle eşitler."
+    },
+    {
+      "number": 5,
+      "title": "Aşk",
+      "content": "Aşk\nYüreğimin üstüne\nYavaşça konmuş bir kuş\n\nGagasında bir gül yaprağı\nBakıyor bana\nÖyle ki\n\nSabahları daha erken uyanıyorum\nSuların sesi daha başka geliyor\nEkmek daha güzel kokuyor\n\nSen bana baktığında\nGüneş daha bir başka doğuyor\nAkşamlar daha geç batıyor\n\nAşk\nHayata bir de böyle bakılırmış\nBilmiyordum",
+      "story": "Cemal Süreya'nın en sade ve en vurucu aşk şiirlerinden biri. Şair burada alışıldık İkinci Yeni karmaşıklığını bırakır, neredeyse çocuksu bir yalınlıkla konuşur. Aşk bir kuş gibi gelir, sessizce konar — ve her şeyi değiştirir: sabahlar, sular, ekmek, güneş. Şiir, aşkın gündelik hayatı nasıl dönüştürdüğünü anlatır.",
+      "commentary": "Bu şiir, Cemal Süreya'nın lirik yüzünü gösterir. İmgeler sade ama güçlüdür: aşk bir kuş, gagasında gül yaprağı. Şiirin gücü son dizesindedir: 'Bilmiyordum.' Bu tek kelime, bütün bir hayatı ikiye böler — aşktan öncesi ve sonrası. Şair, aşkı keşfetmenin şaşkınlığını en dürüst haliyle itiraf eder."
+    },
+    {
+      "number": 6,
+      "title": "Sizin Hiç Babanız Öldü Mü?",
+      "content": "Sizin hiç babanız öldü mü\nBenim bir kere öldü; kör oldum.\n\nGökyüzü bir yuvarlak aynamış\nGüneş bir lambaymış\nGöremedim\nSonradan sonradan\n\nSiz hiç sabunluyken ağladınız mı\nTaşlar pırıl pırıldır hamamda\nÖlüler de pırıl pırıldır\n\nEkmeklerini artık bıçaksız keserler\nEllerinin arasına alıp bölerler\nPeynirlerini de parmaklarıyla bölerler\n\nSiz hiç babanız öldükten sonra\nDomates yediniz mi\nDomates büyük\nLokma büyük\n\nBabam\nBenim bir kere öldü\nKör oldum",
+      "story": "Cemal Süreya bu şiiri babası ölmeden dört yıl önce yazmıştır — şairin kendisi de bunu özellikle belirtir: 'Babamın ölümü üzerine yazdığımı sananlar var, ilk şiirlerimdendir.' Aslında şiir, dört yaşındayken kaybettiği kardeşi Kemal'in cenazesinden yola çıkar: babası kollarında bir yastığın üstünde taşıyordu onu, arkasında bir kalabalık. Süreya penceredeydi, dışarıda kar yağıyordu. O sahne, 'ölüm' kavramının çocuk zihnine ilk girişidir.",
+      "commentary": "Türk şiirinin en içli ve en yalın şiirlerinden biri. 'Kör oldum' metaforu yalnızca görememeyi değil, hayatı algılamanın tamamen değişmesini anlatır. Şiirin en çarpıcı imgesi gündelik eylemlerdir: ekmek bıçaksız kesilir, peynir elle bölünür — yoksulluk ve yalnızlık bir arada. 'Domates büyük / Lokma büyük' derken boğazından geçmeyen acıyı somutlaştırır. Şiir döngüseldir — açılışla kapanış aynıdır, tıpkı acının kendisi gibi."
+    },
+    {
+      "number": 7,
+      "title": "Üstü Kalsın",
+      "content": "Ölesiye sevdim\nÖlesiye sevildim\nGüneş iyiydi\nDeniz iyiydi\nÖlüyordum hep yarısında bir şeylerin\n\nKalanını senin olsun Tanrım\n\nHer ölüm erken ölümdür\nÜstü kalsın",
+      "story": "Cemal Süreya'nın en kısa ama en ağır şiirlerinden biri. Şiirin adı lokanta hesabı kapatırken söylenen 'üstü kalsın' deyiminden gelir — ama burada kapatılan hesap hayatın kendisidir. Süreya, Tanrı'ya bir garson gibi seslenir: sevdim, sevildim, güneş güzeldi, deniz güzeldi — kalanı senin olsun. 9 Ocak 1990'da hayatını kaybeden Cemal Süreya, bu şiiri adeta kendi vasiyeti yazmıştır.",
+      "commentary": "Sekiz dizede bir hayat özetlenir. 'Ölesiye sevdim / Ölesiye sevildim' — aşk hem hayatın anlamı hem ölüm sebebidir. 'Güneş iyiydi / Deniz iyiydi' derken çocuksu bir saflıkla hayata teşekkür eder. En vurucu an, 'üstü kalsın' dediği andır — lokantada bırakılan bahşiş gibi, hayatta yaşanmamış günleri Tanrı'ya bırakır. Ama ironi şurada: 'Her ölüm erken ölümdür' — kimse tam yaşamış olarak ölmez."
+    }
+  ]
+}
